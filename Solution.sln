@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31025.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SayHello", "Chapter_01 014 SayHello/SayHello.csproj", "{302AF10C-DADA-4789-88CA-F6AA6C955772}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyWindow", "Chapter_01 025 MyWindow/MyWindow.csproj", "{302AF10C-DADA-4789-88CA-F6AA6C955772}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GradiateTheBrush", "Chapter_02 042 GradiateTheBrush\GradiateTheBrush.csproj", "{31403D9F-BBDD-4AAA-AFDC-A081CD2C22C3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{302AF10C-DADA-4789-88CA-F6AA6C955772}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{302AF10C-DADA-4789-88CA-F6AA6C955772}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{302AF10C-DADA-4789-88CA-F6AA6C955772}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{302AF10C-DADA-4789-88CA-F6AA6C955772}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31403D9F-BBDD-4AAA-AFDC-A081CD2C22C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31403D9F-BBDD-4AAA-AFDC-A081CD2C22C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31403D9F-BBDD-4AAA-AFDC-A081CD2C22C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31403D9F-BBDD-4AAA-AFDC-A081CD2C22C3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {331E2B54-B408-48BF-AD50-4C551511D9CB}
+	EndGlobalSection
+EndGlobal
