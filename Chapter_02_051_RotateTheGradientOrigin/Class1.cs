@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Chapter_02_051_RotateTheGradientOrigin
 {
-    class Class1 
+    class Class1
     {
     }
 }
