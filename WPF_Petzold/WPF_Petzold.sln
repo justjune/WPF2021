@@ -22,6 +22,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_01 025 MyWindow", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_02 042 GradiateTheBrush", "..\Chapter_02 042 GradiateTheBrush\Chapter_02 042 GradiateTheBrush.csproj", "{31403D9F-BBDD-4AAA-AFDC-A081CD2C22C3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ñhapter_01_022_TrrowWindowParty", "..\Ñhapter_01_22_TrrowWindowParty\Ñhapter_01_022_TrrowWindowParty.csproj", "{2CC215F6-62FF-4B1B-8A71-174108F94087}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_02_051_RotateTheGradientOrigin", "..\Chapter_02_051_RotateTheGradientOrigin\Chapter_02_051_RotateTheGradientOrigin.csproj", "{7EC36CCF-CEC2-40F8-BE84-8A3CC663EA97}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -68,6 +72,14 @@ Global
 		{31403D9F-BBDD-4AAA-AFDC-A081CD2C22C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{31403D9F-BBDD-4AAA-AFDC-A081CD2C22C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{31403D9F-BBDD-4AAA-AFDC-A081CD2C22C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CC215F6-62FF-4B1B-8A71-174108F94087}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CC215F6-62FF-4B1B-8A71-174108F94087}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CC215F6-62FF-4B1B-8A71-174108F94087}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CC215F6-62FF-4B1B-8A71-174108F94087}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EC36CCF-CEC2-40F8-BE84-8A3CC663EA97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EC36CCF-CEC2-40F8-BE84-8A3CC663EA97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EC36CCF-CEC2-40F8-BE84-8A3CC663EA97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EC36CCF-CEC2-40F8-BE84-8A3CC663EA97}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
