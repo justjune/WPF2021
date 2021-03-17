@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3798119D-20A2-4B2F-BCA2-E91942483A7D}</ProjectGuid>
+    <ProjectGuid>{09D9871C-C1AC-4DFF-AB18-A21193C8859F}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Chapter_02_046_AdjustTheGradient</RootNamespace>
-    <AssemblyName>Chapter_02 046 AdjustTheGradient</AssemblyName>
+    <RootNamespace>Chapter_02_048_CircleTheRainbow</RootNamespace>
+    <AssemblyName>Chapter_02 048 CircleTheRainbow</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -36,7 +36,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AdjustTheGradient.cs" />
+    <Compile Include="CircleTheRainbow.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="PresentationCore" />
