@@ -22,13 +22,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_01 025 MyWindow", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_02 042 GradiateTheBrush", "..\Chapter_02 042 GradiateTheBrush\Chapter_02 042 GradiateTheBrush.csproj", "{31403D9F-BBDD-4AAA-AFDC-A081CD2C22C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ñhapter_01_022_TrrowWindowParty", "..\Ñhapter_01_22_TrrowWindowParty\Ñhapter_01_022_TrrowWindowParty.csproj", "{2CC215F6-62FF-4B1B-8A71-174108F94087}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ñhapter_01_22_TrrowWindowParty", "..\Ñhapter_01_22_TrrowWindowParty\Ñhapter_01_22_TrrowWindowParty.csproj", "{B898BE62-0A50-4185-BE00-DE460F5D384D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ñhapter_01_022 TrrowWindowParty", "..\Ñhapter_01_22_TrrowWindowParty\Ñhapter_01_022 TrrowWindowParty.csproj", "{B898BE62-0A50-4185-BE00-DE460F5D384D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_02 048 CircleTheRainbow", "..\Chapter_02 048 CircleTheRainbow\Chapter_02 048 CircleTheRainbow.csproj", "{09D9871C-C1AC-4DFF-AB18-A21193C8859F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_02_51_RotateTheGradientOrigin", "..\Chapter_02_51_RotateTheGradientOrigin\Chapter_02_51_RotateTheGradientOrigin.csproj", "{00D6ADB9-75F1-4C5F-8891-67E011B303AE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_02_051 RotateTheGradientOrigin", "..\Chapter_02_51_RotateTheGradientOrigin\Chapter_02_051 RotateTheGradientOrigin.csproj", "{00D6ADB9-75F1-4C5F-8891-67E011B303AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_03_054 DisplaySomeText", "..\Chapter_03_054_DisplaySomeText\Chapter_03_054 DisplaySomeText.csproj", "{2F5DA175-F3FB-4046-B323-8DE8F3BE4199}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_04_090 EditSomeText", "..\Chapter_04_090 EditSomeText\Chapter_04_090 EditSomeText.csproj", "{1062B6A6-1CE7-4F90-B8A4-F53C2C70A714}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -76,10 +78,6 @@ Global
 		{31403D9F-BBDD-4AAA-AFDC-A081CD2C22C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{31403D9F-BBDD-4AAA-AFDC-A081CD2C22C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{31403D9F-BBDD-4AAA-AFDC-A081CD2C22C3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2CC215F6-62FF-4B1B-8A71-174108F94087}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2CC215F6-62FF-4B1B-8A71-174108F94087}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2CC215F6-62FF-4B1B-8A71-174108F94087}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2CC215F6-62FF-4B1B-8A71-174108F94087}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B898BE62-0A50-4185-BE00-DE460F5D384D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B898BE62-0A50-4185-BE00-DE460F5D384D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B898BE62-0A50-4185-BE00-DE460F5D384D}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -92,6 +90,14 @@ Global
 		{00D6ADB9-75F1-4C5F-8891-67E011B303AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{00D6ADB9-75F1-4C5F-8891-67E011B303AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{00D6ADB9-75F1-4C5F-8891-67E011B303AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F5DA175-F3FB-4046-B323-8DE8F3BE4199}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F5DA175-F3FB-4046-B323-8DE8F3BE4199}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F5DA175-F3FB-4046-B323-8DE8F3BE4199}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F5DA175-F3FB-4046-B323-8DE8F3BE4199}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1062B6A6-1CE7-4F90-B8A4-F53C2C70A714}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1062B6A6-1CE7-4F90-B8A4-F53C2C70A714}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1062B6A6-1CE7-4F90-B8A4-F53C2C70A714}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1062B6A6-1CE7-4F90-B8A4-F53C2C70A714}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
