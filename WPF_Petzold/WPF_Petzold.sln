@@ -32,6 +32,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_03_054 DisplaySomeT
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_04_090 EditSomeText", "..\Chapter_04_090 EditSomeText\Chapter_04_090 EditSomeText.csproj", "{1062B6A6-1CE7-4F90-B8A4-F53C2C70A714}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_05_0101 StackThirtyButtons", "..\Chapter_05_0101 StackThirtyButtons\Chapter_05_0101 StackThirtyButtons.csproj", "{3342CE44-A036-4266-A6B4-98341D8AA779}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_06_0133 SplitTheClient", "..\Chapter_06_0133 SplitTheClient\Chapter_06_0133 SplitTheClient.csproj", "{38F42F08-8BDE-446B-84E3-77CC2BAFBD31}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -98,6 +102,14 @@ Global
 		{1062B6A6-1CE7-4F90-B8A4-F53C2C70A714}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1062B6A6-1CE7-4F90-B8A4-F53C2C70A714}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1062B6A6-1CE7-4F90-B8A4-F53C2C70A714}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3342CE44-A036-4266-A6B4-98341D8AA779}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3342CE44-A036-4266-A6B4-98341D8AA779}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3342CE44-A036-4266-A6B4-98341D8AA779}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3342CE44-A036-4266-A6B4-98341D8AA779}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38F42F08-8BDE-446B-84E3-77CC2BAFBD31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38F42F08-8BDE-446B-84E3-77CC2BAFBD31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38F42F08-8BDE-446B-84E3-77CC2BAFBD31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38F42F08-8BDE-446B-84E3-77CC2BAFBD31}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
