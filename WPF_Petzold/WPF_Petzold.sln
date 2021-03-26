@@ -34,6 +34,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_01 020 InheritTheAp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_01 027 InheritTheWin", "..\Chapter_01 027 InheritTheWin\Chapter_01 027 InheritTheWin.csproj", "{226C2B5E-E072-4779-837B-BDEC4F800F69}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_03 064 ShapeAnEllipse", "..\Chapter_03 064 ShapeAnEllipse\Chapter_03 064 ShapeAnEllipse.csproj", "{208CBF5A-A9D9-4AB9-9FCD-85A36A3BA101}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_04 088 NavigateTheWeb", "..\Chapter_04 088 NavigateTheWeb\Chapter_04 088 NavigateTheWeb.csproj", "{1C3AF8F8-B352-44EF-908F-5A83ED0D91EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_04 080 CommandTheButton", "..\Chapter_04 080 CommandTheButton\Chapter_04 080 CommandTheButton.csproj", "{5DD6E05E-37E7-4F12-99A7-74884C2CDEAB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
