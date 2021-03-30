@@ -22,9 +22,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_02 042 GradiateTheB
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_02 048 CircleTheRainbow", "..\Chapter_02 048 CircleTheRainbow\Chapter_02 048 CircleTheRainbow.csproj", "{09D9871C-C1AC-4DFF-AB18-A21193C8859F}"
 EndProject
-<<<<<<< HEAD
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_04 074 ClickTheButton", "..\Chapter_04 074 ClickTheButton\Chapter_04 074 ClickTheButton.csproj", "{439DE929-8294-4281-A3C7-ABF0370832F1}"
-=======
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_01 031 TypeYourTitle", "..\Chapter_01 031 TypeYourTitle\Chapter_01 031 TypeYourTitle.csproj", "{18B7BFC2-8541-4DCF-80D0-D1AC7EB49321}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_02 039 FlipThroughTheBrushes", "..\Chapter_02 039 FlipThroughTheBrushes\Chapter_02 039 FlipThroughTheBrushes.csproj", "{48B0D3F2-9657-49AC-903C-B53EA829F295}"
@@ -40,7 +39,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_04 082 ToggleTheButton", "..\Chapter_04 082 ToggleTheButton\Chapter_04 082 ToggleTheButton.csproj", "{E0045A5F-FF9B-442E-9383-D19C7313346E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_03 070 SimpleEllipse", "..\Chapter_03 070 SimpleEllipse\Chapter_03 070 SimpleEllipse.csproj", "{07237EA8-3DA2-44CC-9B2B-32381AA2CE15}"
->>>>>>> 694064362aff67ba3a80919762dfe51db67a294f
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_05 108 TuneTheRadio", "..\Chapter_05 108 TuneTheRadio\Chapter_05 108 TuneTheRadio.csproj", "{0CC01831-832B-492B-9DBC-817C17D4BC5E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -88,12 +88,10 @@ Global
 		{09D9871C-C1AC-4DFF-AB18-A21193C8859F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{09D9871C-C1AC-4DFF-AB18-A21193C8859F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{09D9871C-C1AC-4DFF-AB18-A21193C8859F}.Release|Any CPU.Build.0 = Release|Any CPU
-<<<<<<< HEAD
 		{439DE929-8294-4281-A3C7-ABF0370832F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{439DE929-8294-4281-A3C7-ABF0370832F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{439DE929-8294-4281-A3C7-ABF0370832F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{439DE929-8294-4281-A3C7-ABF0370832F1}.Release|Any CPU.Build.0 = Release|Any CPU
-=======
 		{18B7BFC2-8541-4DCF-80D0-D1AC7EB49321}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{18B7BFC2-8541-4DCF-80D0-D1AC7EB49321}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{18B7BFC2-8541-4DCF-80D0-D1AC7EB49321}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -126,7 +124,10 @@ Global
 		{07237EA8-3DA2-44CC-9B2B-32381AA2CE15}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07237EA8-3DA2-44CC-9B2B-32381AA2CE15}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07237EA8-3DA2-44CC-9B2B-32381AA2CE15}.Release|Any CPU.Build.0 = Release|Any CPU
->>>>>>> 694064362aff67ba3a80919762dfe51db67a294f
+		{0CC01831-832B-492B-9DBC-817C17D4BC5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CC01831-832B-492B-9DBC-817C17D4BC5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CC01831-832B-492B-9DBC-817C17D4BC5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CC01831-832B-492B-9DBC-817C17D4BC5E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
