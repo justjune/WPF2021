@@ -20,6 +20,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_02 042 GradiateTheB
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_02 048 CircleTheRainbow", "..\Chapter_02 048 CircleTheRainbow\Chapter_02 048 CircleTheRainbow.csproj", "{09D9871C-C1AC-4DFF-AB18-A21193C8859F}"
 EndProject
+<<<<<<< HEAD
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_04 074 ClickTheButton", "..\Chapter_04 074 ClickTheButton\Chapter_04 074 ClickTheButton.csproj", "{439DE929-8294-4281-A3C7-ABF0370832F1}"
+EndProject
+=======
+>>>>>>> 88124518bd4db297f21870b882c19097648ba539
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_01 031 TypeYourTitle", "..\Chapter_01 031 TypeYourTitle\Chapter_01 031 TypeYourTitle.csproj", "{18B7BFC2-8541-4DCF-80D0-D1AC7EB49321}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_01 029 GrowAndShrink", "..\Chapter_01 029 GrowAndShrink\Chapter_01 029 GrowAndShrink.csproj", "{DB983C1D-6CFE-4B76-9A54-BEE2390008BA}"
@@ -52,6 +57,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_03 068 ToggleBoldAn
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_03 070 SimpleEllipse", "..\Chapter_03 070 SimpleEllipse\Chapter_03 070 SimpleEllipse.csproj", "{07237EA8-3DA2-44CC-9B2B-32381AA2CE15}"
 EndProject
+<<<<<<< HEAD
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_05 108 TuneTheRadio", "..\Chapter_05 108 TuneTheRadio\Chapter_05 108 TuneTheRadio.csproj", "{0CC01831-832B-492B-9DBC-817C17D4BC5E}"
+=======
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_03 071 RenderTheGraphic", "..\Chapter_03 071 RenderTheGraphic\Chapter_03 071 RenderTheGraphic.csproj", "{F11BC680-127E-41A7-89DA-6ACD36FCFCFA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_04 074 ClickTheButton", "..\Chapter_04 074 ClickTheButton\Chapter_04 074 ClickTheButton.csproj", "{439DE929-8294-4281-A3C7-ABF0370832F1}"
@@ -79,6 +87,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_01 022 ThrowWindowP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_02 039 FlipThroughTheBrushes", "..\Chapter_02 039 FlipThroughTheBrushes\Chapter_02 039 FlipThroughTheBrushes.csproj", "{48B0D3F2-9657-49AC-903C-B53EA829F295}"
 >>>>>>> db8397fa6dbfbb2dda5d836e50f3ebf2264f3d71
+>>>>>>> 88124518bd4db297f21870b882c19097648ba539
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -122,6 +131,13 @@ Global
 		{09D9871C-C1AC-4DFF-AB18-A21193C8859F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{09D9871C-C1AC-4DFF-AB18-A21193C8859F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{09D9871C-C1AC-4DFF-AB18-A21193C8859F}.Release|Any CPU.Build.0 = Release|Any CPU
+<<<<<<< HEAD
+		{439DE929-8294-4281-A3C7-ABF0370832F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{439DE929-8294-4281-A3C7-ABF0370832F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{439DE929-8294-4281-A3C7-ABF0370832F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{439DE929-8294-4281-A3C7-ABF0370832F1}.Release|Any CPU.Build.0 = Release|Any CPU
+=======
+>>>>>>> 88124518bd4db297f21870b882c19097648ba539
 		{18B7BFC2-8541-4DCF-80D0-D1AC7EB49321}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{18B7BFC2-8541-4DCF-80D0-D1AC7EB49321}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{18B7BFC2-8541-4DCF-80D0-D1AC7EB49321}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -183,6 +199,12 @@ Global
 		{07237EA8-3DA2-44CC-9B2B-32381AA2CE15}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07237EA8-3DA2-44CC-9B2B-32381AA2CE15}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07237EA8-3DA2-44CC-9B2B-32381AA2CE15}.Release|Any CPU.Build.0 = Release|Any CPU
+<<<<<<< HEAD
+		{0CC01831-832B-492B-9DBC-817C17D4BC5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CC01831-832B-492B-9DBC-817C17D4BC5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CC01831-832B-492B-9DBC-817C17D4BC5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CC01831-832B-492B-9DBC-817C17D4BC5E}.Release|Any CPU.Build.0 = Release|Any CPU
+=======
 		{F11BC680-127E-41A7-89DA-6ACD36FCFCFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F11BC680-127E-41A7-89DA-6ACD36FCFCFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F11BC680-127E-41A7-89DA-6ACD36FCFCFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -235,6 +257,7 @@ Global
 		{48B0D3F2-9657-49AC-903C-B53EA829F295}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48B0D3F2-9657-49AC-903C-B53EA829F295}.Release|Any CPU.Build.0 = Release|Any CPU
 >>>>>>> db8397fa6dbfbb2dda5d836e50f3ebf2264f3d71
+>>>>>>> 88124518bd4db297f21870b882c19097648ba539
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
