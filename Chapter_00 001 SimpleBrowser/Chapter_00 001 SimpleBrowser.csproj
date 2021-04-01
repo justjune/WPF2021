@@ -33,7 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="..\Chapter_01 017 HandleAnEvent\App.config">
+      <Link>App.config</Link>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="SimpleBrowser.cs" />
