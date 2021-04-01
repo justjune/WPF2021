@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B898BE62-0A50-4185-BE00-DE460F5D384D}</ProjectGuid>
+    <ProjectGuid>{851E7D94-13A2-42D2-95EA-98B370264D9C}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Сhapter_01_22_TrrowWindowParty</RootNamespace>
-    <AssemblyName>Сhapter_01_22_TrrowWindowParty</AssemblyName>
+    <RootNamespace>Сhapter_01_022_TrrowWindowParty</RootNamespace>
+    <AssemblyName>Сhapter_01 022 TrrowWindowParty</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

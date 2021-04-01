@@ -36,6 +36,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_05_0101 StackThirty
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_06_0133 SplitTheClient", "..\Chapter_06_0133 SplitTheClient\Chapter_06_0133 SplitTheClient.csproj", "{38F42F08-8BDE-446B-84E3-77CC2BAFBD31}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ñhapter_01 022 TrrowWindowParty", "..\Ñhapter_01 022 TrrowWindowParty\Ñhapter_01 022 TrrowWindowParty.csproj", "{851E7D94-13A2-42D2-95EA-98B370264D9C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -110,6 +112,10 @@ Global
 		{38F42F08-8BDE-446B-84E3-77CC2BAFBD31}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38F42F08-8BDE-446B-84E3-77CC2BAFBD31}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38F42F08-8BDE-446B-84E3-77CC2BAFBD31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{851E7D94-13A2-42D2-95EA-98B370264D9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{851E7D94-13A2-42D2-95EA-98B370264D9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{851E7D94-13A2-42D2-95EA-98B370264D9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{851E7D94-13A2-42D2-95EA-98B370264D9C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
