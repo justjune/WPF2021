@@ -70,6 +70,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_01 022 ThrowWindowP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_02 039 FlipThroughTheBrushes", "..\Chapter_02 039 FlipThroughTheBrushes\Chapter_02 039 FlipThroughTheBrushes.csproj", "{48B0D3F2-9657-49AC-903C-B53EA829F295}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_05 103 ScrollFiftyButtons", "..\Chapter_05 103 ScrollFiftyButtons\Chapter_05 103 ScrollFiftyButtons.csproj", "{2E7F11C3-B4BC-4B87-A6D5-0A093C0EB445}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -212,6 +214,10 @@ Global
 		{48B0D3F2-9657-49AC-903C-B53EA829F295}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48B0D3F2-9657-49AC-903C-B53EA829F295}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48B0D3F2-9657-49AC-903C-B53EA829F295}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E7F11C3-B4BC-4B87-A6D5-0A093C0EB445}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E7F11C3-B4BC-4B87-A6D5-0A093C0EB445}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E7F11C3-B4BC-4B87-A6D5-0A093C0EB445}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E7F11C3-B4BC-4B87-A6D5-0A093C0EB445}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
