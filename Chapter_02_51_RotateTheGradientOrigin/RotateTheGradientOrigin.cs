@@ -1,6 +1,6 @@
 ﻿//--------------------------------------------------------
 // RotateTheGradientOrigin.cs (c) 2006 by Charles Petzold
-//--------------------------------------------------------
+//-------------------------------------------------------- 
 using System;
 using System.Windows;
 using System.Windows.Input;
