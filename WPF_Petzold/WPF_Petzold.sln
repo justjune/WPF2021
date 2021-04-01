@@ -74,6 +74,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_02 039 FlipThroughT
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_00 001 SimpleBrowser", "..\Chapter_00 001 SimpleBrowser\Chapter_00 001 SimpleBrowser.csproj", "{8DF7D64B-F504-4796-A25D-2EEB8165CAE5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_06 124 EnterTheGrid", "..\Chapter_06 124 EnterTheGrid\Chapter_06 124 EnterTheGrid.csproj", "{CF10DF06-FF11-4D7B-BB6D-BDDAE0CAFC10}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -224,6 +226,10 @@ Global
 		{8DF7D64B-F504-4796-A25D-2EEB8165CAE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8DF7D64B-F504-4796-A25D-2EEB8165CAE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8DF7D64B-F504-4796-A25D-2EEB8165CAE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF10DF06-FF11-4D7B-BB6D-BDDAE0CAFC10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF10DF06-FF11-4D7B-BB6D-BDDAE0CAFC10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF10DF06-FF11-4D7B-BB6D-BDDAE0CAFC10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF10DF06-FF11-4D7B-BB6D-BDDAE0CAFC10}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
