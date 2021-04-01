@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{09D9871C-C1AC-4DFF-AB18-A21193C8859F}</ProjectGuid>
+    <ProjectGuid>{8DF7D64B-F504-4796-A25D-2EEB8165CAE5}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Chapter_02_048_CircleTheRainbow</RootNamespace>
-    <AssemblyName>Chapter_02 048 CircleTheRainbow</AssemblyName>
+    <RootNamespace>Chapter_00_001_SimpleBrowser</RootNamespace>
+    <AssemblyName>Chapter_00 001 SimpleBrowser</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,16 +33,18 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="CircleTheRainbow.cs" />
+    <None Include="..\Chapter_01 017 HandleAnEvent\App.config">
+      <Link>App.config</Link>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="SimpleBrowser.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
     <Reference Include="System" />
     <Reference Include="WindowsBase" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
