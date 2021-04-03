@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B92EAB81-2B87-443E-B2CC-6A43B6A180D4}</ProjectGuid>
+    <ProjectGuid>{95084680-7E49-471C-AB30-7D348781C9B3}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Chapter_11_222_CalculateInHex</RootNamespace>
     <AssemblyName>Chapter_11 222 CalculateInHex</AssemblyName>
