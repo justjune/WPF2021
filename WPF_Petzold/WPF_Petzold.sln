@@ -90,6 +90,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_05 097 StackTenButt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_06 136 ScrollCustomColors", "..\Chapter_06 136 ScrollCustomColors\Chapter_06 136 ScrollCustomColors.csproj", "{DF8238AB-D6BB-4BB5-8261-6675D13EF892}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_08 161 SetFrontSizeProperty", "..\Chapter_08 161 SetFrontSizeProperty\Chapter_08 161 SetFrontSizeProperty.csproj", "{B78937C4-A47F-481A-9E42-40E32BD41715}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -272,6 +274,10 @@ Global
 		{DF8238AB-D6BB-4BB5-8261-6675D13EF892}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF8238AB-D6BB-4BB5-8261-6675D13EF892}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF8238AB-D6BB-4BB5-8261-6675D13EF892}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B78937C4-A47F-481A-9E42-40E32BD41715}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B78937C4-A47F-481A-9E42-40E32BD41715}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B78937C4-A47F-481A-9E42-40E32BD41715}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B78937C4-A47F-481A-9E42-40E32BD41715}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
