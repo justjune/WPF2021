@@ -1,5 +1,4 @@
-﻿//using Petzold.ListNamedBrushes;
-using System;
+﻿using System;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -9,9 +8,9 @@ using System.Windows.Shapes;
 
 namespace Chapter_13_288_ListColorsEvenElegantlier
 {
-    class ListColorsEvenElegantlier : Window
+    class ListColorsEvenElegantlier : Window // создание класса ListColorsEvenElegantlier, наследника Window
     {
-        [STAThread] 
+        [STAThread] // основной программный поток приложения использует однопотопную модель
         public static void Main() 
         { 
             Application app = new Application();
@@ -19,50 +18,50 @@ namespace Chapter_13_288_ListColorsEvenElegantlier
         }
         public ListColorsEvenElegantlier()
         {
-            Title = "List Colors Even Elegantlier";    
-            // Create a DataTemplate for the items. 
+            Title = "List Colors Even Elegantlier";   // // свойство Title определяет заголовок окна  
+            // Создайте DataTemplate для элементов. 
             DataTemplate template = new  DataTemplate(typeof(NamedBrush));  
-            // Create a FrameworkElementFactory  based on StackPanel.      
+            // Создайте FrameworkElementFactory на основе StackPanel.      
             FrameworkElementFactory factoryStack =                   
                 new  FrameworkElementFactory(typeof(StackPanel));   
             factoryStack.SetValue(StackPanel .OrientationProperty,  
                 Orientation.Horizontal);            
-            // Make that the root of the  DataTemplate visual tree.  
+            // Сделайте это корнем визуального дерева DataTemplate.
             template.VisualTree = factoryStack;          
-            // Create a FrameworkElementFactory  based on Rectangle.  
+            // Создайте FrameworkElementFactory на основе Rectangle. 
             FrameworkElementFactory factoryRectangle =             
-                new  FrameworkElementFactory(typeof(Rectangle));    
-            factoryRectangle.SetValue(Rectangle .WidthProperty, 16.0);   
-            factoryRectangle.SetValue(Rectangle .HeightProperty, 16.0);  
-            factoryRectangle.SetValue(Rectangle .MarginProperty, new Thickness(2));    
+                new  FrameworkElementFactory(typeof(Rectangle)); // Поддерживает создание шаблонов.   
+            factoryRectangle.SetValue(Rectangle .WidthProperty, 16.0);   // Задает значение свойства зависимостей.
+            factoryRectangle.SetValue(Rectangle .HeightProperty, 16.0);  // Задает значение свойства зависимостей. 
+            factoryRectangle.SetValue(Rectangle .MarginProperty, new Thickness(2)); //Задает значение свойства зависимостей.   
             factoryRectangle.SetValue(Rectangle .StrokeProperty,          
-                SystemColors.WindowTextBrush);      
+                SystemColors.WindowTextBrush);   //Задает значение свойства зависимостей.   
             factoryRectangle.SetBinding(Rectangle .FillProperty,      
-                new  Binding("Brush"));         
-            // Add it to the StackPanel.      
+                new  Binding("Brush"));   // Задает привязку данных для свойства.      
+            // Добавьте его в StackPanel.
             factoryStack.AppendChild (factoryRectangle);      
-            // Create a FrameworkElementFactory  based on TextBlock.  
+            // Создайте FrameworkElementFactory на основе TextBlock.
             FrameworkElementFactory factoryTextBlock =                 
-                new  FrameworkElementFactory(typeof(TextBlock));    
+                new  FrameworkElementFactory(typeof(TextBlock)); // Поддерживает создание шаблонов.   
             factoryTextBlock.SetValue(TextBlock .VerticalAlignmentProperty,  
-                VerticalAlignment.Center);        
+                VerticalAlignment.Center);  // Задает значение свойства зависимостей.      
             factoryTextBlock.SetValue(TextBlock .TextProperty,    
-                new  Binding("Name"));        
-            // Add it to the StackPanel.        
-            factoryStack.AppendChild (factoryTextBlock);    
-            // Create ListBox as content of window.       
-            ListBox lstbox = new ListBox();           
-            lstbox.Width = 150;   
-            lstbox.Height = 150;    
-            Content = lstbox;         
-            // Set the ItemTemplate property to  the template created above.   
+                new  Binding("Name"));  // Задает значение свойства зависимостей.      
+            // Добавьте его в StackPanel.       
+            factoryStack.AppendChild (factoryTextBlock);    // Добавляет дочернюю фабрику к данной фабрике.
+            // Создайте ListBox в качестве содержимого окна.   
+            ListBox lstbox = new ListBox();    // Содержит список элементов для выбора.       
+            lstbox.Width = 150;   // Получение или установка ширины элемента.(Унаследовано от FrameworkElement)
+            lstbox.Height = 150;  // Получает или задает предлагаемую высоту элемента.(Унаследовано от FrameworkElement) 
+            Content = lstbox;     // добавление     
+            // Установите свойство ItemTemplate в шаблон, созданный выше.  
             lstbox.ItemTemplate = template;     
             // Set the ItemsSource to the array of  NamedBrush objects.   
             lstbox.ItemsSource = NamedBrush.All;     
-            // Bind the SelectedValue to window  Background.     
-            lstbox.SelectedValuePath = "Brush";    
-            lstbox.SetBinding(ListBox .SelectedValueProperty, "Background");         
-            lstbox.DataContext = this;        
+            // Установите ItemsSource в массив объектов NamedBrush. 
+            lstbox.SelectedValuePath = "Brush";     // Возвращает или задает путь, используемый для получения SelectedValue из SelectedItem.(Унаследовано от Selector)
+            lstbox.SetBinding(ListBox .SelectedValueProperty, "Background");  // Прикрепляет привязку к данному элементу на основе указанного имени исходного свойства в виде классификационного пути к источнику данных.(Унаследовано от FrameworkElement)       
+            lstbox.DataContext = this;        // Получает или задает контекст данных для элемента, участвующего в привязке данных.(Унаследовано от FrameworkElement)
         }    
     }
 
