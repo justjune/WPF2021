@@ -7,9 +7,9 @@ using System.Windows.Shapes;
 
 namespace Chapter_12_250_PaintOnCanvasClone
 {
-    class PaintOnCanvasClone : Window
+    class PaintOnCanvasClone : Window// создание класса PaintOnCanvasClone, наследника Window
     {
-        [STAThread] 
+        [STAThread] // основной программный поток приложения использует однопотопную модель
         public static void Main() 
         { 
             Application app = new Application();
@@ -17,24 +17,25 @@ namespace Chapter_12_250_PaintOnCanvasClone
         }
         public PaintOnCanvasClone() 
         { 
-            Title = "Paint on Canvas Clone"; 
-            Canvas canv = new Canvas(); 
+            Title = "Paint on Canvas Clone"; // свойство Title определяет заголовок окна
+            Canvas canv = new Canvas(); // Определяет область, внутри которой можно явным образом разместить дочерние элементы с помощью координат, относящихся к области Canvas.
             Content = canv; 
             SolidColorBrush[] brushes = 
                 { 
                     Brushes.Red, 
                     Brushes.Green, 
                     Brushes.Blue 
-                }; 
+                }; // Закрашивает область сплошным цветом.
             for (int i = 0; i < brushes.Length; i++)
             { 
                 
-                Rectangle rect = new Rectangle(); 
-                rect.Fill = brushes[i];
-                rect.Width = 200; rect.Height = 200; 
-                canv.Children.Add(rect); 
-                Canvas.SetLeft(rect, 100 * (i + 1));
-                Canvas.SetTop(rect, 100 * (i + 1));
+                Rectangle rect = new Rectangle(); // Рисует прямоугольник.
+                rect.Fill = brushes[i]; // Получает или задает структуру Brush, определяющую способ рисования внутренней области фигуры.(Унаследовано от Shape)
+                rect.Width = 200; // Получение или установка ширины элемента.(Унаследовано от FrameworkElement)
+                 rect.Height = 200; // Получает или задает предлагаемую высоту элемента.(Унаследовано от FrameworkElement)
+                canv.Children.Add(rect); // добавление  в канвас 
+                Canvas.SetLeft(rect, 100 * (i + 1)); // положение 
+                Canvas.SetTop(rect, 100 * (i + 1)); // положение 
             }
         }
     }
