@@ -6,25 +6,27 @@ using System.Windows.Media;
 
 namespace Chapter_11_222_CalculateInHex
 {
-    class RoundedButton : Control
+    class RoundedButton : Control // создание класса RoundedButton, наследника Control
     {
-        // Private field. 
-        RoundedButtonDecorator decorator;
+        // Private поля
+        RoundedButtonDecorator decorator; // создание класса
         // Public static ClickEvent.     
         public static readonly RoutedEvent ClickEvent;
-        // Static Constructor.         
+        // Конструктор          
         static RoundedButton()
         {
             ClickEvent =
                 EventManager.RegisterRoutedEvent("Click", RoutingStrategy.Bubble,
                 typeof(RoutedEventHandler), typeof(RoundedButton));
-        }         // Constructor.         
+        }         
+        // Конструктор         
         public RoundedButton()
         {
             decorator = new RoundedButtonDecorator();
             AddVisualChild(decorator);
             AddLogicalChild(decorator);
-        }         // Public properties.  
+        }         
+        // Public properties.  
         public UIElement Child
         {
             set
@@ -46,7 +48,8 @@ namespace Chapter_11_222_CalculateInHex
             {
                 return decorator.IsPressed;
             }
-        }         // Public event.       
+        }         
+        // Public event.       
         public event RoutedEventHandler Click
         {
             add
@@ -57,7 +60,8 @@ namespace Chapter_11_222_CalculateInHex
             {
                 RemoveHandler(ClickEvent, value);
             }
-        }         // Overridden property and methods. 
+        }         
+        // Переопределенные свойства и методы.
         protected override int VisualChildrenCount
         {
             get
@@ -115,7 +119,7 @@ namespace Chapter_11_222_CalculateInHex
                     pt.Y >= 0 && pt.Y < ActualHeight);
             }
         }
-        // Method to fire Click event.  
+        // Метод запуска события Click. 
         protected virtual void OnClick()
         {
             RoutedEventArgs argsEvent = new RoutedEventArgs();

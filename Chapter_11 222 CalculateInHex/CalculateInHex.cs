@@ -7,44 +7,46 @@ using System.Windows.Threading;
 
 namespace Chapter_11_222_CalculateInHex
 {
-    class CalculateInHex : Window
+    class CalculateInHex : Window // создание класса CalculateInHex, наследника Window
     {
-        // Private fields.
-        RoundedButton btnDisplay;
+        // Частные поля.
+        RoundedButton btnDisplay; // создание объекта класса 
         ulong numDisplay;
         ulong numFirst;
         bool bNewNumber = true;
         char chOperation = '=';
-        [STAThread]
+        [STAThread] // основной программный поток приложения использует однопотопную модель
         public static void Main()
         {
             Application app = new Application();
             app.Run(new CalculateInHex());
         }
-        // Constructor.          
+        // Конструктор        
         public CalculateInHex()
         {
-            Title = "Calculate in Hex";
-            SizeToContent = SizeToContent.WidthAndHeight;
+            Title = "Calculate in Hex"; // свойство Title определяет заголовок окна
+            SizeToContent = SizeToContent.WidthAndHeight; //Возвращает или задает значение, указывающее, изменится ли автоматически размер окна в соответствии с размером его содержимого.
             ResizeMode = ResizeMode.CanMinimize;
-            // Create Grid as content of window.              
-            Grid grid = new Grid();
-            grid.Margin = new Thickness(4);
+            // Создайте сетку в качестве содержимого окна. 
+            // Создание объекта Grid       
+            Grid grid = new Grid(); // создание разметки
+            grid.Margin = new Thickness(4);// поделить окно на 4 частей
             Content = grid;
-            // Create five columns.              
+            // Создайте пять столбцов.              
             for (int i = 0; i < 5; i++)
             {
-                ColumnDefinition col = new ColumnDefinition();
-                col.Width = GridLength.Auto;
-                grid.ColumnDefinitions.Add(col);
+                ColumnDefinition col = new ColumnDefinition();// Определяет свойства столбца, которые применяются к элементам Grid.
+                col.Width = GridLength.Auto; //Представляет длину элементов, которые явным образом поддерживают типы единиц Star.
+                grid.ColumnDefinitions.Add(col);// Определяет свойства столбца, которые применяются к элементам Grid.
             }
-            // Create seven rows.              
+            // Создайте семь рядов.           
             for (int i = 0; i < 7; i++)
             {
-                RowDefinition row = new RowDefinition();
-                row.Height = GridLength.Auto;
-                grid.RowDefinitions.Add(row);
-            }              // Text to appear in buttons.              
+                RowDefinition row = new RowDefinition();// Определяет специфические для строки свойства, применимые к элементам Grid.
+                row.Height = GridLength.Auto;//Получает вычисляемую высоту элемента RowDefinition или задает значение GridLength строки, которая определяется RowDefinition.
+                grid.RowDefinitions.Add(row);// Определяет свойства строки, которые применяются к элементам Grid.
+            }         
+             // Текст, который будет отображаться в кнопках.          
             string[] strButtons = { "0",
                 "D", "E", "F" , "+", "&",
                 "A", "B", "C" , "-", "|",
@@ -53,24 +55,24 @@ namespace Chapter_11_222_CalculateInHex
                 "1", "2", "3" , "%", ">>",
                 "0", "Back",  "Equals" };
             int iRow = 0, iCol = 0;
-            // Create the buttons.              
+            // Создайте кнопки.            
             foreach (string str in strButtons)
             {
-                // Create RoundedButton.                 
+                // Создать RoundedButton.          
                 RoundedButton btn = new RoundedButton();
                 btn.Focusable = false;
                 btn.Height = 32;
                 btn.Margin = new Thickness(4);
-                btn.Click += ButtonOnClick;
-                // Create TextBlock for Child of  RoundedButton.                 
-                TextBlock txt = new TextBlock();
-                txt.Text = str;
-                btn.Child = txt;
-                // Add RoundedButton to Grid.                 
-                grid.Children.Add(btn);
-                Grid.SetRow(btn, iRow);
-                Grid.SetColumn(btn, iCol);
-                // Make an exception for the  Display button.                 
+                btn.Click += ButtonOnClick; // вызов действия 
+                // Создать текстовый блок для дочернего элемента RoundedButton.                
+                TextBlock txt = new TextBlock(); // Предоставляет легковесный элемент управления для отображения небольших объемов размещения содержимого.
+                txt.Text = str; // Получает или задает текстовое содержимое элемента управления TextBlock.
+                btn.Child = txt; // Присвоение текста кнопкам
+                // Добавить RoundedButton в сетку.
+                grid.Children.Add(btn); // добавление в родителя 
+                Grid.SetRow(btn, iRow); // расположение
+                Grid.SetColumn(btn, iCol); // расположение
+                // Особая обработка для кнопки Display            
                 if (iRow == 0 && iCol == 0)
                 {
                     btnDisplay = btn;
@@ -78,13 +80,13 @@ namespace Chapter_11_222_CalculateInHex
                     Grid.SetColumnSpan(btn, 5);
                     iRow = 1;
                 }
-                // Also for Back and Equals.                 
+                // А так же для кнопок Back и Equals.                 
                 else if (iRow == 6 && iCol > 0)
                 {
                     Grid.SetColumnSpan(btn, 2);
                     iCol += 2;
                 }
-                // For all other buttons.                
+                // Для всех остальных кнопок.                
                 else
                 {
                     btn.Width = 32;
@@ -93,23 +95,23 @@ namespace Chapter_11_222_CalculateInHex
                 }
             }
         }
-        // Click event handler.         
+        // Click обработчик событий
         void ButtonOnClick(object sender, RoutedEventArgs args)
         {
-            // Get the clicked button.             
+            // Получить нажатую кнопку.            
             RoundedButton btn = args.Source as RoundedButton;
             if (btn == null) return;
-            // Get the button text and the first  character.             
+            // Получите текст кнопки и первый символ.        
             string strButton = (btn.Child as TextBlock).Text;
             char chButton = strButton[0];
-            // Some special cases.             
+            // Некоторые особые случаи..             
             if (strButton == "Equals")
                 chButton = '=';
             if (btn == btnDisplay)
                 numDisplay = 0;
             else if (strButton == "Back")
                 numDisplay /= 16;
-            // Hexadecimal digits.            
+            // Шестнадцатеричные цифры.           
             else if (Char.IsLetterOrDigit(chButton))
             {
                 if (bNewNumber)
@@ -121,7 +123,8 @@ namespace Chapter_11_222_CalculateInHex
                 if (numDisplay <= ulong.MaxValue >> 4)
                     numDisplay = 16 * numDisplay + (ulong)(chButton -
                         (Char.IsDigit(chButton) ? '0' : 'A' - 10));
-            }             // Operation.             
+            }             
+            // Рабочкий режим.            
             else
             {
                 if (!bNewNumber)
@@ -172,24 +175,24 @@ namespace Chapter_11_222_CalculateInHex
                 bNewNumber = true;
                 chOperation = chButton;
             }
-            // Format display.  
-            TextBlock text = new TextBlock();
-            text.Text = String.Format("{0:X}", numDisplay);
-            btnDisplay.Child = text;
+            // Форматирование вывода.  
+            TextBlock text = new TextBlock(); // Предоставляет легковесный элемент управления для отображения небольших объемов размещения содержимого.
+            text.Text = String.Format("{0:X}", numDisplay);// Предоставляет легковесный элемент управления для отображения небольших объемов размещения содержимого.
+            btnDisplay.Child = text; // добавление текста в дисплей 
         }
         protected override void OnTextInput(TextCompositionEventArgs args)
         {
             base.OnTextInput(args);
             if (args.Text.Length == 0)
                 return;
-            // Get character input.
+            // Получение нажатой клавиши
             char chKey = Char.ToUpper(args.Text[0]);
-            // Loop through buttons.             
+            // Перебор кнопок             
             foreach (UIElement child in (Content as Grid).Children)
             {
                 RoundedButton btn = child as RoundedButton;
                 string strButton = (btn.Child as TextBlock).Text;
-                // Messy logic to check for  matching button.                 
+                // Грязная логика для проверки соответствия кнопки.               
                 if ((chKey == strButton[0] && btn != btnDisplay &&
                     strButton != "Equals" && strButton != "Back") ||
                     (chKey == '=' && strButton == "Equals") ||
@@ -197,13 +200,13 @@ namespace Chapter_11_222_CalculateInHex
                     (chKey == '\b' && strButton == "Back") ||
                     (chKey == '\x1B' && btn == btnDisplay))
                 {
-                    // Simulate Click event to  process keystroke.                     
+                    // Имитация события щелчка для обработки нажатия клавиши.                    
                     RoutedEventArgs argsClick =
                         new RoutedEventArgs(RoundedButton.ClickEvent, btn);
                     btn.RaiseEvent(argsClick);
-                    // Make the button appear as  if it's pressed.                     
+                    // Сделайте так, чтобы кнопка выглядела так, как будто она нажата.                  
                     btn.IsPressed = true;
-                    // Set timer to unpress button.                     
+                    // Установите таймер на кнопку распаковки.
                     DispatcherTimer tmr = new DispatcherTimer();
                     tmr.Interval = TimeSpan.FromMilliseconds(100);
                     tmr.Tag = btn;
@@ -215,11 +218,11 @@ namespace Chapter_11_222_CalculateInHex
         }
         void TimerOnTick(object sender, EventArgs args)
         {
-            // Unpress button.            
+            // Отпустите кнопку.          
             DispatcherTimer tmr = sender as DispatcherTimer;
             RoundedButton btn = tmr.Tag as RoundedButton;
             btn.IsPressed = false;
-            // Turn off time and remove event handler.             
+            // Отключите время и удалите обработчик событий.            
             tmr.Stop();
             tmr.Tick -= TimerOnTick;
         }

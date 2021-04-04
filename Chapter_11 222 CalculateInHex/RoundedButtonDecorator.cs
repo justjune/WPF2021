@@ -6,19 +6,20 @@ using System.Windows.Media;
 
 namespace Chapter_11_222_CalculateInHex
 {
-    class RoundedButtonDecorator : Decorator
+    class RoundedButtonDecorator : Decorator // создание класса RoundedButtonDecorator, наследника Decorator
     {
-        // Public dependency property. 
+        // Public . 
         public static readonly DependencyProperty IsPressedProperty;
-        // Static constructor.      
+        // constructor.      
         static RoundedButtonDecorator()
         {
             IsPressedProperty =
-     DependencyProperty.Register("IsPressed", typeof(bool),
-     typeof(RoundedButtonDecorator),
-     new FrameworkPropertyMetadata(false,
-     FrameworkPropertyMetadataOptions.AffectsRender));
-        }          // Public property.       
+            DependencyProperty.Register("IsPressed", typeof(bool),
+            typeof(RoundedButtonDecorator),
+            new FrameworkPropertyMetadata(false,
+            FrameworkPropertyMetadataOptions.AffectsRender));
+        }          
+        // Public property.       
         public bool IsPressed
         {
             set
@@ -31,6 +32,7 @@ namespace Chapter_11_222_CalculateInHex
                 return (bool)GetValue(IsPressedProperty);
             }
         }
+
         // Override of MeasureOverride.         
         protected override Size MeasureOverride(Size sizeAvailable)
         {
@@ -44,7 +46,9 @@ namespace Chapter_11_222_CalculateInHex
                 szDesired.Height += Child.DesiredSize.Height;
             }
             return szDesired;
-        }          // Override of ArrangeOverride.  
+        } 
+
+        // Override of ArrangeOverride.  
         protected override Size ArrangeOverride(Size sizeArrange)
         {
             if (Child != null)
@@ -58,6 +62,7 @@ namespace Chapter_11_222_CalculateInHex
             }
             return sizeArrange;
         }
+
         // Override of OnRender.    
         protected override void OnRender(DrawingContext dc)
         {
@@ -67,9 +72,9 @@ namespace Chapter_11_222_CalculateInHex
             SystemColors.ControlColor);
             brush.GradientOrigin = IsPressed ? new Point(0.75, 0.75) :
                 new Point(0.25, 0.25); dc.DrawRoundedRectangle(brush,
-       new Pen(SystemColors.ControlDarkDarkBrush, 1),
-       new Rect(new Point(0, 0), RenderSize),
-       RenderSize.Height / 2, RenderSize.Height / 2);
+            new Pen(SystemColors.ControlDarkDarkBrush, 1),
+            new Rect(new Point(0, 0), RenderSize),
+            RenderSize.Height / 2, RenderSize.Height / 2);
         }
     }
 }
