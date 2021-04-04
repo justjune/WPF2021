@@ -9,31 +9,31 @@ namespace Chapter_13_288_ListColorsEvenElegantlier
         static NamedBrush[] nbrushes; 
         Brush brush; 
         string str;   
-        // Static constructor.  
+        //Создание конструктора
         static NamedBrush()     
         {         
-            PropertyInfo[] props = typeof(Brushes) .GetProperties();   
+            PropertyInfo[] props = typeof(Brushes).GetProperties();   // Выявляет атрибуты свойства и обеспечивает доступ к его метаданным.
             nbrushes = new NamedBrush[props.Length];         
             for (int i = 0; i < props.Length; i++)
             {
                 nbrushes[i] = new NamedBrush(props[i].Name,
-                    (Brush)props[i].GetValue(null, null));
+                    (Brush)props[i].GetValue(null, null)); // Возвращает значение свойства заданного объекта с дополнительными значениями индекса для индексированных свойств.
             }          
                 
         }        
-        // Private constructor.   
+        // Приватный конструктор   
         private NamedBrush(string str, Brush brush)   
         {           
             this.str = str;      
             this.brush = brush;    
         }        
         
-        // Static read-only property. 
+        // Статическое свойство только для чтения.
         public static NamedBrush[] All   
         {           
             get { return nbrushes; }  
         }        
-        // Read-only properties.   
+        // Свойства только для чтения.  
         public Brush Brush      
         {             
             get { return brush; }   
@@ -49,7 +49,7 @@ namespace Chapter_13_288_ListColorsEvenElegantlier
                 return strSpaced;             
             }         
         }        
-        // Override of ToString method.  
+        // Переопределение метода toString.
         public override string ToString()    
         {            
             return str;  
