@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{09D9871C-C1AC-4DFF-AB18-A21193C8859F}</ProjectGuid>
+    <ProjectGuid>{B78937C4-A47F-481A-9E42-40E32BD41715}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Chapter_02_048_CircleTheRainbow</RootNamespace>
-    <AssemblyName>Chapter_02 048 CircleTheRainbow</AssemblyName>
+    <RootNamespace>Chapter_08_161_SetFrontSizeProperty</RootNamespace>
+    <AssemblyName>Chapter_08 161 SetFrontSizeProperty</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="CircleTheRainbow.cs" />
+    <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="PresentationCore" />
@@ -42,7 +42,7 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <Compile Include="SetFrontSizeProperty.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

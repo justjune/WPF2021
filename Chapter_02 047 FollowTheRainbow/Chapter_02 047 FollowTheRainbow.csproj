@@ -33,7 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="..\Chapter_02 048 CircleTheRainbow\App.config">
+      <Link>App.config</Link>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="PresentationCore" />

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{09D9871C-C1AC-4DFF-AB18-A21193C8859F}</ProjectGuid>
+    <ProjectGuid>{CF10DF06-FF11-4D7B-BB6D-BDDAE0CAFC10}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Chapter_02_048_CircleTheRainbow</RootNamespace>
-    <AssemblyName>Chapter_02 048 CircleTheRainbow</AssemblyName>
+    <RootNamespace>Chapter_06_124_EnterTheGrid</RootNamespace>
+    <AssemblyName>Chapter_06_124 EnterTheGrid</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,13 +33,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="CircleTheRainbow.cs" />
-  </ItemGroup>
-  <ItemGroup>
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
     <Reference Include="System" />
     <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="EnterTheGrid.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

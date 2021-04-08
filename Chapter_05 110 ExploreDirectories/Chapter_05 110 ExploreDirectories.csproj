@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{09D9871C-C1AC-4DFF-AB18-A21193C8859F}</ProjectGuid>
+    <ProjectGuid>{DF22DB1E-99CD-4EA7-A58F-97D1FC5F1409}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Chapter_02_048_CircleTheRainbow</RootNamespace>
-    <AssemblyName>Chapter_02 048 CircleTheRainbow</AssemblyName>
+    <RootNamespace>Chapter_05_110_ExploreDirectories</RootNamespace>
+    <AssemblyName>Chapter_05 110 ExploreDirectories</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="CircleTheRainbow.cs" />
+    <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="PresentationCore" />
@@ -42,7 +42,7 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <Compile Include="ExploreDirectories.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

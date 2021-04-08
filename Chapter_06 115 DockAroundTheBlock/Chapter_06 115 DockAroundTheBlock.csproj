@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{09D9871C-C1AC-4DFF-AB18-A21193C8859F}</ProjectGuid>
+    <ProjectGuid>{1F8AA590-CE48-4B64-AEFE-11A5BFBC3FFF}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Chapter_02_048_CircleTheRainbow</RootNamespace>
-    <AssemblyName>Chapter_02 048 CircleTheRainbow</AssemblyName>
+    <RootNamespace>Chapter_06_115_DockAroundTheBlock</RootNamespace>
+    <AssemblyName>Chapter_06 115 DockAroundTheBlock</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,16 +33,16 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="CircleTheRainbow.cs" />
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DockAroundTheBlock.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
     <Reference Include="System" />
     <Reference Include="WindowsBase" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
