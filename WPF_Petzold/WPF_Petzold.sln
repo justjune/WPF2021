@@ -90,6 +90,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_05 097 StackTenButt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_06 136 ScrollCustomColors", "..\Chapter_06 136 ScrollCustomColors\Chapter_06 136 ScrollCustomColors.csproj", "{DF8238AB-D6BB-4BB5-8261-6675D13EF892}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_11 241 SelectColor", "..\Chapter_11 241 SelectColor\Chapter_11 241 SelectColor.csproj", "{9DC104EB-952F-4BBE-A940-D36CA73F6A9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_07 141 PaintTheButton", "..\Chapter_07 141 PaintTheButton\Chapter_07 141 PaintTheButton.csproj", "{991CB5B1-22CE-4F7B-AE5D-7FD920C0A567}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -272,6 +276,14 @@ Global
 		{DF8238AB-D6BB-4BB5-8261-6675D13EF892}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF8238AB-D6BB-4BB5-8261-6675D13EF892}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF8238AB-D6BB-4BB5-8261-6675D13EF892}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DC104EB-952F-4BBE-A940-D36CA73F6A9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DC104EB-952F-4BBE-A940-D36CA73F6A9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DC104EB-952F-4BBE-A940-D36CA73F6A9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DC104EB-952F-4BBE-A940-D36CA73F6A9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{991CB5B1-22CE-4F7B-AE5D-7FD920C0A567}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{991CB5B1-22CE-4F7B-AE5D-7FD920C0A567}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{991CB5B1-22CE-4F7B-AE5D-7FD920C0A567}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{991CB5B1-22CE-4F7B-AE5D-7FD920C0A567}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
