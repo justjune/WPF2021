@@ -90,8 +90,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_05 097 StackTenButt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_06 136 ScrollCustomColors", "..\Chapter_06 136 ScrollCustomColors\Chapter_06 136 ScrollCustomColors.csproj", "{DF8238AB-D6BB-4BB5-8261-6675D13EF892}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_11 241 SelectColor", "..\Chapter_11 241 SelectColor\Chapter_11 241 SelectColor.csproj", "{9DC104EB-952F-4BBE-A940-D36CA73F6A9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_07 141 PaintTheButton", "..\Chapter_07 141 PaintTheButton\Chapter_07 141 PaintTheButton.csproj", "{991CB5B1-22CE-4F7B-AE5D-7FD920C0A567}"
+EndProjetc
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_10 208 GetMedieval", "..\Chapter_10 208 GetMedieval\Chapter_10 208 GetMedieval.csproj", "{B0066B93-6F94-4257-A19A-883DF0BD30FC}"
 EndProject
+
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_10 200 RenderTheBetterEllipse", "..\Chapter_10 200 RenderTheBetterEllipse\Chapter_10 200 RenderTheBetterEllipse.csproj", "{A1FF41CB-91AE-4AF4-B5BC-EB15C3876564}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_09 186 ShadowTheStylus", "..\Chapter_09 186 ShadowTheStylus\Chapter_09 186 ShadowTheStylus.csproj", "{AEB83990-FADA-47B6-BF9F-3F2F3688839E}"
@@ -292,7 +297,14 @@ Global
 		{DF8238AB-D6BB-4BB5-8261-6675D13EF892}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF8238AB-D6BB-4BB5-8261-6675D13EF892}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF8238AB-D6BB-4BB5-8261-6675D13EF892}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B0066B93-6F94-4257-A19A-883DF0BD30FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DC104EB-952F-4BBE-A940-D36CA73F6A9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DC104EB-952F-4BBE-A940-D36CA73F6A9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DC104EB-952F-4BBE-A940-D36CA73F6A9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DC104EB-952F-4BBE-A940-D36CA73F6A9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{991CB5B1-22CE-4F7B-AE5D-7FD920C0A567}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{991CB5B1-22CE-4F7B-AE5D-7FD920C0A567}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{991CB5B1-22CE-4F7B-AE5D-7FD920C0A567}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{991CB5B1-22CE-4F7B-AE5D-7FD920C0A567}.Release|Any CPU.Build.0 = Release|Any CP
 		{B0066B93-6F94-4257-A19A-883DF0BD30FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0066B93-6F94-4257-A19A-883DF0BD30FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B0066B93-6F94-4257-A19A-883DF0BD30FC}.Release|Any CPU.Build.0 = Release|Any CPU
