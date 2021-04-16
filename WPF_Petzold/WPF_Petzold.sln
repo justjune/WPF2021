@@ -90,11 +90,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_05 097 StackTenButt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_06 136 ScrollCustomColors", "..\Chapter_06 136 ScrollCustomColors\Chapter_06 136 ScrollCustomColors.csproj", "{DF8238AB-D6BB-4BB5-8261-6675D13EF892}"
 EndProject
-<<<<<<< HEAD
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_10 200 RenderTheBetterEllipse", "..\Chapter_10 200 RenderTheBetterEllipse\Chapter_10 200 RenderTheBetterEllipse.csproj", "{A1FF41CB-91AE-4AF4-B5BC-EB15C3876564}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_09 186 ShadowTheStylus", "..\Chapter_09 186 ShadowTheStylus\Chapter_09 186 ShadowTheStylus.csproj", "{AEB83990-FADA-47B6-BF9F-3F2F3688839E}"
-=======
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_08 161 SetFrontSizeProperty", "..\Chapter_08 161 SetFrontSizeProperty\Chapter_08 161 SetFrontSizeProperty.csproj", "{B78937C4-A47F-481A-9E42-40E32BD41715}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_11 222 CalculateInHex", "..\Chapter_11 222 CalculateInHex\Chapter_11 222 CalculateInHex.csproj", "{95084680-7E49-471C-AB30-7D348781C9B3}"
@@ -102,7 +101,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_12 250 PaintOnCanvasClone", "..\Chapter_12 250 PaintOnCanvasClone\Chapter_12 250 PaintOnCanvasClone.csproj", "{C1C45764-AB5F-4181-8889-4501656224D8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_13 288 ListColorsEvenElegantlier", "..\Chapter_13 288 ListColorsEvenElegantlier\Chapter_13 288 ListColorsEvenElegantlier.csproj", "{2985A45D-6243-407E-BF8A-57C5822C7BE7}"
->>>>>>> e3f8ba284196c25bc1f66d1a2797c4d9073664b1
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_13 271 ListColorValues", "..\Chapter_13 271 ListColorValues\Chapter_13 271 ListColorValues.csproj", "{69CB7E36-6507-4875-A93C-065C8BDC84BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_13 292 SelectColorFromGrid", "..\Chapter_13 292 SelectColorFromGrid\Chapter_13 292 SelectColorFromGrid.csproj", "{2AA2E43C-AFB7-4905-823D-F6F7610A92A2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -286,7 +288,6 @@ Global
 		{DF8238AB-D6BB-4BB5-8261-6675D13EF892}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF8238AB-D6BB-4BB5-8261-6675D13EF892}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF8238AB-D6BB-4BB5-8261-6675D13EF892}.Release|Any CPU.Build.0 = Release|Any CPU
-<<<<<<< HEAD
 		{A1FF41CB-91AE-4AF4-B5BC-EB15C3876564}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A1FF41CB-91AE-4AF4-B5BC-EB15C3876564}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A1FF41CB-91AE-4AF4-B5BC-EB15C3876564}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -295,7 +296,6 @@ Global
 		{AEB83990-FADA-47B6-BF9F-3F2F3688839E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AEB83990-FADA-47B6-BF9F-3F2F3688839E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AEB83990-FADA-47B6-BF9F-3F2F3688839E}.Release|Any CPU.Build.0 = Release|Any CPU
-=======
 		{B78937C4-A47F-481A-9E42-40E32BD41715}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B78937C4-A47F-481A-9E42-40E32BD41715}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B78937C4-A47F-481A-9E42-40E32BD41715}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -312,7 +312,14 @@ Global
 		{2985A45D-6243-407E-BF8A-57C5822C7BE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2985A45D-6243-407E-BF8A-57C5822C7BE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2985A45D-6243-407E-BF8A-57C5822C7BE7}.Release|Any CPU.Build.0 = Release|Any CPU
->>>>>>> e3f8ba284196c25bc1f66d1a2797c4d9073664b1
+		{69CB7E36-6507-4875-A93C-065C8BDC84BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69CB7E36-6507-4875-A93C-065C8BDC84BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69CB7E36-6507-4875-A93C-065C8BDC84BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69CB7E36-6507-4875-A93C-065C8BDC84BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AA2E43C-AFB7-4905-823D-F6F7610A92A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AA2E43C-AFB7-4905-823D-F6F7610A92A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AA2E43C-AFB7-4905-823D-F6F7610A92A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AA2E43C-AFB7-4905-823D-F6F7610A92A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
