@@ -72,7 +72,7 @@ namespace Chapter_14_305_CheckTheColor.cs
         }
         void ForegroundOnOpened(object sender, RoutedEventArgs args)
         {
-            MenuItem itemParent = sender as MenuItem;    // Инициализирует новый экземпляр класса MenuItem.      
+            MenuItem itemParent = sender as MenuItem;    //      Инициализирует новый экземпляр класса MenuItem.      
             foreach (MenuItem item in itemParent.Items)
                 item.IsChecked =
                     ((text.Foreground as SolidColorBrush).Color == (Color)item.Tag);  // добавление в предка
