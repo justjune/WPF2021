@@ -7,9 +7,9 @@
         ResizeMode="CanMinimize">
     <StackPanel Orientation="Horizontal">
 
-        <Button HorizontalAlignment="Center"
+        <Button HorizontalAlignment="Center"  
             VerticalAlignment="Center"
-            Margin="24">
+            Margin="24">  
             Do-nothing button to test tabbing
         </Button>
 
