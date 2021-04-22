@@ -8,13 +8,13 @@ using System.Windows.Shapes;
 
 namespace Chapter_14_305_CheckTheColor.cs
 {
-    class CheckTheColor : Window //создаем наследника класса window
+    class CheckTheColor : Window //создаем наследника класса window 
     {
         TextBlock text;
         [STAThread] //используем однопоточность
         public static void Main() // метод main 
         {
-            Application app = new Application();//запускаем наше окно
+            Application app = new Application();  //запускаем наше окно
             app.Run(new CheckTheColor());
         }
 
