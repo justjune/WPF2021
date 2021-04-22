@@ -117,7 +117,7 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_13 271 ListColorValues", "..\Chapter_13 271 ListColorValues\Chapter_13 271 ListColorValues.csproj", "{69CB7E36-6507-4875-A93C-065C8BDC84BC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_13 292 SelectColorFromGrid", "..\Chapter_13 292 SelectColorFromGrid\Chapter_13 292 SelectColorFromGrid.csproj", "{2AA2E43C-AFB7-4905-823D-F6F7610A92A2}"
-=======
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_13 295 SelectColorFromWheel", "..\Chapter_13 295 SelectColorFromWheel\Chapter_13 295 SelectColorFromWheel.csproj", "{DE69F41E-C186-481A-A606-1E47076AC24B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_09 180 DrawCircles", "..\Chapter_09 180 DrawCircles\Chapter_09 180 DrawCircles.csproj", "{7B221F65-F588-4222-94CA-258C351D8F0F}"
@@ -139,6 +139,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_13 287 ListColorsElegantly", "..\Chapter_13 287 ListColorsElegantly\Chapter_13 287 ListColorsElegantly.csproj", "{64A52A7B-48C3-411F-8390-233D9593DC9A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_13 277 ListNamedBrushes", "..\Chapter_13 277 ListNamedBrushes\Chapter_13 277 ListNamedBrushes.csproj", "{18A8A7EC-0D47-4E5E-BB5A-D65DCF862EC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_19 481 LoadEmbeddedXaml", "..\Chapter_19 481 LoadEmbeddedXaml\Chapter_19 481 LoadEmbeddedXaml.csproj", "{4A0BBCF6-7FC1-4F97-9E50-4331D4934325}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -370,7 +372,6 @@ Global
 		{2985A45D-6243-407E-BF8A-57C5822C7BE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2985A45D-6243-407E-BF8A-57C5822C7BE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2985A45D-6243-407E-BF8A-57C5822C7BE7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DE69F41E-C186-481A-A606-1E47076AC24B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{69CB7E36-6507-4875-A93C-065C8BDC84BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{69CB7E36-6507-4875-A93C-065C8BDC84BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{69CB7E36-6507-4875-A93C-065C8BDC84BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -379,7 +380,7 @@ Global
 		{2AA2E43C-AFB7-4905-823D-F6F7610A92A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2AA2E43C-AFB7-4905-823D-F6F7610A92A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2AA2E43C-AFB7-4905-823D-F6F7610A92A2}.Release|Any CPU.Build.0 = Release|Any CPU
-=======
+		{DE69F41E-C186-481A-A606-1E47076AC24B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DE69F41E-C186-481A-A606-1E47076AC24B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE69F41E-C186-481A-A606-1E47076AC24B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE69F41E-C186-481A-A606-1E47076AC24B}.Release|Any CPU.Build.0 = Release|Any CPU
@@ -423,6 +424,10 @@ Global
 		{18A8A7EC-0D47-4E5E-BB5A-D65DCF862EC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{18A8A7EC-0D47-4E5E-BB5A-D65DCF862EC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{18A8A7EC-0D47-4E5E-BB5A-D65DCF862EC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A0BBCF6-7FC1-4F97-9E50-4331D4934325}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A0BBCF6-7FC1-4F97-9E50-4331D4934325}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A0BBCF6-7FC1-4F97-9E50-4331D4934325}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A0BBCF6-7FC1-4F97-9E50-4331D4934325}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
