@@ -126,6 +126,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_13_277 ListNamedBru
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_13 287 ListColorsElegantly", "..\Chapter_13 287 ListColorsElegantly\Chapter_13 287 ListColorsElegantly.csproj", "{64A52A7B-48C3-411F-8390-233D9593DC9A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_14 303 CheckTheWindowStyle", "..\Chapter_14 303 CheckTheWindowStyle\Chapter_14 303 CheckTheWindowStyle.csproj", "{AF71F6A3-814D-40FA-8366-C4B544412740}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -380,6 +382,10 @@ Global
 		{64A52A7B-48C3-411F-8390-233D9593DC9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64A52A7B-48C3-411F-8390-233D9593DC9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64A52A7B-48C3-411F-8390-233D9593DC9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF71F6A3-814D-40FA-8366-C4B544412740}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF71F6A3-814D-40FA-8366-C4B544412740}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF71F6A3-814D-40FA-8366-C4B544412740}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF71F6A3-814D-40FA-8366-C4B544412740}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
