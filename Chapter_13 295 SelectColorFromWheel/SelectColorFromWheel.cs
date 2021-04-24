@@ -34,9 +34,8 @@ namespace Chapter_13_295_SelectColorFromWheel {
         VerticalAlignment = VerticalAlignment.Center
       };
       stack.Children.Add(clrwheel);
-
-      // Bind Background of window to selected value of ColorWheel
-      clrwheel.SetBinding(ColorWheel.SelectedValueProperty, "Background");
+              // Bind Background of window to selected value of ColorWheel
+              clrwheel.SetBinding(ColorWheel.SelectedValueProperty, "Background");
       clrwheel.DataContext = this;
 
       // Create another do-nothing button (same as {- Button add 1 -})
@@ -51,7 +50,7 @@ namespace Chapter_13_295_SelectColorFromWheel {
   }
 
 
-  internal class ColorWheel : ListBox {
+  public class ColorWheel : ListBox {
     public ColorWheel() {
       // Define the ItemsPanel template
       var factoryRadialPanel = new FrameworkElementFactory(typeof(RadialPanel));
