@@ -124,6 +124,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_09 190 ExamineKeyst
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_14 305 CheckTheColor.cs", "..\Chapter_14 305 CheckTheColor.cs\Chapter_14 305 CheckTheColor.cs.csproj", "{A969223B-30A6-48DB-BA33-D22FD90E2D84}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_19 491 CompileXamlWindow", "..\Chapter_19 491 CompileXamlWindow\Chapter_19 491 CompileXamlWindow.csproj", "{8B344D24-CE62-4B5A-B609-F13AF632000C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -374,6 +376,10 @@ Global
 		{A969223B-30A6-48DB-BA33-D22FD90E2D84}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A969223B-30A6-48DB-BA33-D22FD90E2D84}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A969223B-30A6-48DB-BA33-D22FD90E2D84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B344D24-CE62-4B5A-B609-F13AF632000C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B344D24-CE62-4B5A-B609-F13AF632000C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B344D24-CE62-4B5A-B609-F13AF632000C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B344D24-CE62-4B5A-B609-F13AF632000C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
