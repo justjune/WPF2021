@@ -152,6 +152,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_14 305 CheckTheColo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_19 485 LoadXamlFile", "..\Chapter_19 485 LoadXamlFile\Chapter_19 485 LoadXamlFile.csproj", "{05777F7A-66DE-46C6-8A1F-D2EB0D697F2F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_23 641 ColorScrollApp", "..\Chapter_23 641 ColorScrollApp\Chapter_23 641 ColorScrollApp.csproj", "{632DED9D-56F4-4115-A384-627FA9404833}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -458,6 +460,10 @@ Global
 		{05777F7A-66DE-46C6-8A1F-D2EB0D697F2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05777F7A-66DE-46C6-8A1F-D2EB0D697F2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05777F7A-66DE-46C6-8A1F-D2EB0D697F2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{632DED9D-56F4-4115-A384-627FA9404833}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{632DED9D-56F4-4115-A384-627FA9404833}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{632DED9D-56F4-4115-A384-627FA9404833}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{632DED9D-56F4-4115-A384-627FA9404833}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
