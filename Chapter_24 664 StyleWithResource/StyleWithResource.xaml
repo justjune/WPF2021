@@ -1,5 +1,4 @@
-﻿
-<StackPanel xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+﻿<StackPanel xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" d:DesignWidth="279.384" d:DesignHeight="252.98">
     <StackPanel.Resources>
         <!-- здесь мы оформляем градиентную сеть в виде ресурса(объект, который можно повторно использовать в разных местах приложения)  
@@ -12,7 +11,8 @@
                 <!-- класс Style определяет всего 6 свойств, тут мы используем свойства Resources и дальше Setters, выше еще было x:Key, являющее собой расширение свойства TargetType -->
                 <LinearGradientBrush x:Key="gradbrush"
                                      StartPoint="1,0" EndPoint="1,1">
-                    <GradientStop Color="LightBlue" Offset="0" /> <!-- GradientStop описывает местоположение и цвет точки перехода в градиенте. -->
+                    <GradientStop Color="LightBlue" Offset="0" />
+                    <!-- GradientStop описывает местоположение и цвет точки перехода в градиенте. -->
                     <GradientStop Color="Aquamarine" Offset="1" />
                 </LinearGradientBrush>
             </Style.Resources>
