@@ -92,7 +92,7 @@ namespace Chapter_14_305_CheckTheColor.cs
         }
         void BackgroundOnClick(object sender, RoutedEventArgs args)
         {
-            MenuItem item = sender as MenuItem;    // Инициализирует новый экземпляр класса MenuItem.     
+            MenuItem item = sender as MenuItem;      // Инициализирует новый экземпляр класса MenuItem.     
             Color clr = (Color)item.Tag;
             text.Background = new SolidColorBrush(clr); // Возвращает или задает Brush, используемого для заполнения фона области содержимого.
         }
