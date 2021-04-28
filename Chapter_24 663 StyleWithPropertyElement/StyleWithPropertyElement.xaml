@@ -1,0 +1,58 @@
+﻿    <!-- В данном файле добавлен фрагмент из файла StyleWithSameKeys.xaml представляющий из себя описание Grid и вложенную в него секцию Grid.Resources -->
+    <Window x:Class="Newapp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+
+    <Grid xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+        <!--Базовый стиль 24 пт, синего цвета-->
+            <Grid.Resources>
+                <Style TargetType="{x:Type Button}">
+                    <Setter Property="Control.FontSize"  Value="24" />
+                    <Setter Property="Control.Foreground"  Value="Blue" />
+                </Style>
+            </Grid.Resources>
+
+            <StackPanel
+            xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+            xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+                <StackPanel.Resources>
+
+                    <!--Градиентная кисть от светло-голубого до авамаринового-->
+                        <Style x:Key="normal">
+                            <Setter Property="Control.FontSize"  Value="24" />
+                            <Setter Property="Control.HorizontalAlignment" Value="Center" />
+                            <Setter Property="Control.Margin"  Value="24" />
+                            <Setter Property="Control.Background">
+                                <Setter.Value>
+                                    <LinearGradientBrush  StartPoint="1,0" EndPoint="1,1">
+                                        <LinearGradientBrush.GradientStops>
+                                            <GradientStop  Color="LightBlue" Offset="0" />
+                                            <GradientStop  Color="Aquamarine" Offset="1" />
+                                        </LinearGradientBrush.GradientStops>
+                                    </LinearGradientBrush>
+                                </Setter.Value>
+                            </Setter>
+                        </Style>
+                </StackPanel.Resources>
+
+                <!--Кнопочки-->
+                    <Button Style="{StaticResource normal}">
+                        Button Number 1
+                    </Button>
+
+                    <Button Style="{StaticResource normal}">
+                        Button Number 2
+                    </Button>
+                    <Button Style="{StaticResource normal}">
+                        Button Number 3
+                    </Button>
+            </StackPanel>
+    </Grid>
+
+</Window>
