@@ -138,22 +138,20 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_14 317 CommandTheMe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_13 287 ListColorsElegantly", "..\Chapter_13 287 ListColorsElegantly\Chapter_13 287 ListColorsElegantly.csproj", "{64A52A7B-48C3-411F-8390-233D9593DC9A}"
 EndProject
-<<<<<<< HEAD
-=======
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_14 303 CheckTheWindowStyle", "..\Chapter_14 303 CheckTheWindowStyle\Chapter_14 303 CheckTheWindowStyle.csproj", "{AF71F6A3-814D-40FA-8366-C4B544412740}"
 EndProject
->>>>>>> 958eddb500e1bf700b5becd6f965d9f9b733d047
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_19 494 UseCustomClass", "..\Chapter_19 494 UseCustomClass\Chapter_19 494 UseCustomClass.csproj", "{819A0186-0EAA-41AA-AACC-EEC26770D3EB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_13 277 ListNamedBrushes", "..\Chapter_13 277 ListNamedBrushes\Chapter_13 277 ListNamedBrushes.csproj", "{18A8A7EC-0D47-4E5E-BB5A-D65DCF862EC1}"
 EndProject
-<<<<<<< HEAD
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_24 664 StyleWithResource", "..\Chapter_24 664 StyleWithResource\Chapter_24 664 StyleWithResource.csproj", "{E0216BAB-F9B1-4BD1-A630-B65BBC484466}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_24 661 StyleWithMultipleButtons", "..\Chapter_24 661 StyleWithMultipleButtons\Chapter_24 661 StyleWithMultipleButtons.csproj", "{B96869D1-9EB7-4AE5-9E17-747EA000EB0A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_24 661 StyleWithMultipleElements", "..\Chapter_24 661 StyleWithMultipleElements\Chapter_24 661 StyleWithMultipleElements.csproj", "{C0990CD1-7EAB-461C-8A03-161A30314BAE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_24 663 StyleWithPropertyElement", "..\Chapter_24 663 StyleWithPropertyElement\Chapter_24 663 StyleWithPropertyElement.csproj", "{21870A5F-E4E4-490C-A81C-C32D8F6F14AA}"
-=======
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_19 481 LoadEmbeddedXaml", "..\Chapter_19 481 LoadEmbeddedXaml\Chapter_19 481 LoadEmbeddedXaml.csproj", "{4A0BBCF6-7FC1-4F97-9E50-4331D4934325}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_14 308 SelectColorFromMenuGrid", "..\Chapter_14 308 SelectColorFromMenuGrid\Chapter_14 308 SelectColorFromMenuGrid.csproj", "{0B4CCE65-1F06-4F49-8E7E-F374F84A1053}"
@@ -161,7 +159,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_14 305 CheckTheColor.cs", "..\Chapter_14 305 CheckTheColor.cs\Chapter_14 305 CheckTheColor.cs.csproj", "{A969223B-30A6-48DB-BA33-D22FD90E2D84}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_19 485 LoadXamlFile", "..\Chapter_19 485 LoadXamlFile\Chapter_19 485 LoadXamlFile.csproj", "{05777F7A-66DE-46C6-8A1F-D2EB0D697F2F}"
->>>>>>> 958eddb500e1bf700b5becd6f965d9f9b733d047
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -441,13 +438,10 @@ Global
 		{64A52A7B-48C3-411F-8390-233D9593DC9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64A52A7B-48C3-411F-8390-233D9593DC9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64A52A7B-48C3-411F-8390-233D9593DC9A}.Release|Any CPU.Build.0 = Release|Any CPU
-<<<<<<< HEAD
-=======
 		{AF71F6A3-814D-40FA-8366-C4B544412740}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{AF71F6A3-814D-40FA-8366-C4B544412740}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF71F6A3-814D-40FA-8366-C4B544412740}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF71F6A3-814D-40FA-8366-C4B544412740}.Release|Any CPU.Build.0 = Release|Any CPU
->>>>>>> 958eddb500e1bf700b5becd6f965d9f9b733d047
 		{819A0186-0EAA-41AA-AACC-EEC26770D3EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{819A0186-0EAA-41AA-AACC-EEC26770D3EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{819A0186-0EAA-41AA-AACC-EEC26770D3EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -456,7 +450,10 @@ Global
 		{18A8A7EC-0D47-4E5E-BB5A-D65DCF862EC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{18A8A7EC-0D47-4E5E-BB5A-D65DCF862EC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{18A8A7EC-0D47-4E5E-BB5A-D65DCF862EC1}.Release|Any CPU.Build.0 = Release|Any CPU
-<<<<<<< HEAD
+		{E0216BAB-F9B1-4BD1-A630-B65BBC484466}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0216BAB-F9B1-4BD1-A630-B65BBC484466}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0216BAB-F9B1-4BD1-A630-B65BBC484466}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0216BAB-F9B1-4BD1-A630-B65BBC484466}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B96869D1-9EB7-4AE5-9E17-747EA000EB0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B96869D1-9EB7-4AE5-9E17-747EA000EB0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B96869D1-9EB7-4AE5-9E17-747EA000EB0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -469,7 +466,6 @@ Global
 		{21870A5F-E4E4-490C-A81C-C32D8F6F14AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{21870A5F-E4E4-490C-A81C-C32D8F6F14AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{21870A5F-E4E4-490C-A81C-C32D8F6F14AA}.Release|Any CPU.Build.0 = Release|Any CPU
-=======
 		{4A0BBCF6-7FC1-4F97-9E50-4331D4934325}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4A0BBCF6-7FC1-4F97-9E50-4331D4934325}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A0BBCF6-7FC1-4F97-9E50-4331D4934325}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -486,7 +482,6 @@ Global
 		{05777F7A-66DE-46C6-8A1F-D2EB0D697F2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05777F7A-66DE-46C6-8A1F-D2EB0D697F2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05777F7A-66DE-46C6-8A1F-D2EB0D697F2F}.Release|Any CPU.Build.0 = Release|Any CPU
->>>>>>> 958eddb500e1bf700b5becd6f965d9f9b733d047
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
