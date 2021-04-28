@@ -17,7 +17,7 @@ namespace Chapter_19_491_CompileXamlWindow
         }
         public CompileXamlWindow()
         {             
-            //  Required method call to hook up  event handlers and 
+            //   Required method call to hook up  event handlers and 
             // initialize fields.    
             InitializeComponent(); 
 
