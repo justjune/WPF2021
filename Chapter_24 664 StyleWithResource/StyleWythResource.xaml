@@ -1,0 +1,57 @@
+﻿
+<StackPanel xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+            xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" d:DesignWidth="279.384" d:DesignHeight="252.98">
+    <StackPanel.Resources>
+        <!-- здесь мы оформляем градиентную сеть в виде ресурса(объект, который можно повторно использовать в разных местах приложения)  
+        и ссылаемся на ресурс в определении Style  с использованием расширения StaticResource, ресурсы можно опрделить прямо в Style  -->
+
+        <Style x:Key="normal">
+            <!-- x:Key аналог конструкции typeof в шарпах, если задано свойтво TargetType, то просто пишем x:Type, все определится само на основе TargetType  -->
+
+            <Style.Resources>
+                <!-- класс Style определяет всего 6 свойств, тут мы используем свойства Resources и дальше Setters, выше еще было x:Key, являющее собой расширение свойства TargetType -->
+                <LinearGradientBrush x:Key="gradbrush"
+                                     StartPoint="1,0" EndPoint="1,1">
+                    <GradientStop Color="LightBlue" Offset="0" /> <!-- GradientStop описывает местоположение и цвет точки перехода в градиенте. -->
+                    <GradientStop Color="Aquamarine" Offset="1" />
+                </LinearGradientBrush>
+            </Style.Resources>
+
+            <Setter Property="Control.FontSize" Value="24" />
+            <!-- масштабируем наши кнопки по горизонтали-->
+            <!-- Setter Представляет механизм установки, задающий значение свойства. -->
+            <Setter Property="FrameworkElement.HorizontalAlignment" Value="Center" />
+            <Setter Property="FrameworkElement.Margin" Value="24" />
+            <!-- теперь масштабируем по вертикали -->
+            <Setter Property="Control.Background" 
+                    Value="{StaticResource gradbrush}" />
+        </Style>
+    </StackPanel.Resources>
+    <!-- StackPanel Это более простой элемент компоновки. Он располагает все элементы в ряд либо по горизонтали, либо по вертикали в зависимости от ориентации. -->
+    <!-- кнопки используют стиль определенный в StackPanel -->
+
+    <Button Style="{StaticResource normal}" BorderBrush="#FFE70C0C" Foreground="#FFDC0000" Content="Button Number 1">
+        <Button.Background>
+            <LinearGradientBrush EndPoint="1,1" StartPoint="1,0">
+                <!-- градиентная кисть, представляет плавный переход от одного цвета к другому  -->
+                <GradientStop Color="LightBlue" Offset="0"/>
+                <GradientStop Color="Gainsboro" Offset="1"/>
+            </LinearGradientBrush>
+        </Button.Background>
+        <!-- Задний фон кнопки -->
+    </Button>
+    <!-- создаем 1 кнопку, передаем ей кучу параметров цвета границы, фона, итд с настраивая все это самостоятельно через свойства -->
+
+    <Button Style="{StaticResource normal}" Content="Button Number 2" BorderBrush="#FFF4F4F4" Foreground="#FF29F06C">
+        <Button.Background>
+            <LinearGradientBrush EndPoint="1,1" StartPoint="1,0">
+                <GradientStop Color="LightBlue" Offset="0"/>
+                <GradientStop Color="#FFF11C1C" Offset="1"/>
+            </LinearGradientBrush>
+        </Button.Background>
+    </Button>
+    <!-- создаем 2 кнопку аналогично первой но с другими параметрами свойств-->
+
+    <Button Style="{StaticResource normal}" Content="Button Number 3"/>
+    <!-- создаем 3 кнопку дефолтно, без дополнительных настроек, так она выглядит, если мы не лезем в свойства -->
+</StackPanel>
