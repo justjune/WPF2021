@@ -152,6 +152,18 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_14 305 CheckTheColo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_19 485 LoadXamlFile", "..\Chapter_19 485 LoadXamlFile\Chapter_19 485 LoadXamlFile.csproj", "{05777F7A-66DE-46C6-8A1F-D2EB0D697F2F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_23 627 BindLabelToScrollBar", "..\Chapter_23 627 BindLabelToScrollBar\Chapter_23 627 BindLabelToScrollBar.csproj", "{5A4187C0-CD50-48AF-A5D0-13B514EC4E8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_23 628 PropertyElementSyntax", "..\Chapter_23 628 PropertyElementSyntax\Chapter_23 628 PropertyElementSyntax.csproj", "{B74C6F46-C7AA-40B8-B9EF-40B5DF58DD57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_23 632 TwoBindings", "..\Chapter_23 632 TwoBindings\Chapter_23 632 TwoBindings.csproj", "{710F636D-D789-4B0B-B6F3-3C22C2A6A889}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_23 631 BindingWithDataContext", "..\Chapter_23 631 BindingWithDataContext\Chapter_23 631 BindingWithDataContext.csproj", "{6D67F1C9-0C62-4FB8-81FB-DE581721B0E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_23 635 CustomElementBinding", "..\Chapter_23 635 CustomElementBinding\Chapter_23 635 CustomElementBinding.csproj", "{45ECFAD2-55A3-4B74-AC4E-5DBE3305A513}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_23 632 WhatSize", "..\Chapter_23 632 WhatSize\Chapter_23 632 WhatSize.csproj", "{5722B45E-B95A-429F-B746-FB78867D2067}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -458,6 +470,30 @@ Global
 		{05777F7A-66DE-46C6-8A1F-D2EB0D697F2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05777F7A-66DE-46C6-8A1F-D2EB0D697F2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05777F7A-66DE-46C6-8A1F-D2EB0D697F2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A4187C0-CD50-48AF-A5D0-13B514EC4E8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A4187C0-CD50-48AF-A5D0-13B514EC4E8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A4187C0-CD50-48AF-A5D0-13B514EC4E8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A4187C0-CD50-48AF-A5D0-13B514EC4E8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B74C6F46-C7AA-40B8-B9EF-40B5DF58DD57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B74C6F46-C7AA-40B8-B9EF-40B5DF58DD57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B74C6F46-C7AA-40B8-B9EF-40B5DF58DD57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B74C6F46-C7AA-40B8-B9EF-40B5DF58DD57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{710F636D-D789-4B0B-B6F3-3C22C2A6A889}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{710F636D-D789-4B0B-B6F3-3C22C2A6A889}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{710F636D-D789-4B0B-B6F3-3C22C2A6A889}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{710F636D-D789-4B0B-B6F3-3C22C2A6A889}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D67F1C9-0C62-4FB8-81FB-DE581721B0E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D67F1C9-0C62-4FB8-81FB-DE581721B0E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D67F1C9-0C62-4FB8-81FB-DE581721B0E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D67F1C9-0C62-4FB8-81FB-DE581721B0E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45ECFAD2-55A3-4B74-AC4E-5DBE3305A513}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45ECFAD2-55A3-4B74-AC4E-5DBE3305A513}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45ECFAD2-55A3-4B74-AC4E-5DBE3305A513}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45ECFAD2-55A3-4B74-AC4E-5DBE3305A513}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5722B45E-B95A-429F-B746-FB78867D2067}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5722B45E-B95A-429F-B746-FB78867D2067}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5722B45E-B95A-429F-B746-FB78867D2067}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5722B45E-B95A-429F-B746-FB78867D2067}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
