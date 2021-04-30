@@ -5,8 +5,10 @@ using System.Windows.Data;
 using System.Windows.Media;
 using System.Windows.Shapes;
 
-namespace Chapter_13_295_SelectColorFromWheel {
-  public class SelectColorFromWheel : Window {
+namespace Chapter_13_295_SelectColorFromWheel 
+{
+    public class SelectColorFromWheel : Window 
+    {
     [STAThread]
     public static void Main() => new Application().Run(new SelectColorFromWheel());
 
@@ -50,32 +52,34 @@ namespace Chapter_13_295_SelectColorFromWheel {
   }
 
 
-  public class ColorWheel : ListBox {
-    public ColorWheel() {
-      // Define the ItemsPanel template
-      var factoryRadialPanel = new FrameworkElementFactory(typeof(RadialPanel));
-      ItemsPanel = new ItemsPanelTemplate(factoryRadialPanel);
+    public partial class ColorWheel : ListBox 
+    {
+        public ColorWheel() 
+        {
+          // Define the ItemsPanel template
+          var factoryRadialPanel = new FrameworkElementFactory(typeof(RadialPanel));
+          ItemsPanel = new ItemsPanelTemplate(factoryRadialPanel);
 
-      // Create the DataTemplate for the items
-      var template = new DataTemplate(typeof(Brush));
-      ItemTemplate = template;
+          // Create the DataTemplate for the items
+          var template = new DataTemplate(typeof(Brush));
+          ItemTemplate = template;
 
-      // Create a FrameworkElementFactory based on Rectangle with specific properties (like width, margin, etc.)
-      var elRectangle = new FrameworkElementFactory(typeof(Rectangle));
-      elRectangle.SetValue(Rectangle.WidthProperty, 4.0);
-      elRectangle.SetValue(Rectangle.HeightProperty, 12.0);
-      elRectangle.SetValue(Rectangle.MarginProperty,
-        new Thickness(1, 8, 1, 8));
-      elRectangle.SetBinding(Rectangle.FillProperty, new Binding(""));
+          // Create a FrameworkElementFactory based on Rectangle with specific properties (like width, margin, etc.)
+          var elRectangle = new FrameworkElementFactory(typeof(Rectangle));
+          elRectangle.SetValue(Rectangle.WidthProperty, 4.0);
+          elRectangle.SetValue(Rectangle.HeightProperty, 12.0);
+          elRectangle.SetValue(Rectangle.MarginProperty,
+            new Thickness(1, 8, 1, 8));
+          elRectangle.SetBinding(Rectangle.FillProperty, new Binding(""));
 
-      // Use that factory for the visual tree
-      template.VisualTree = elRectangle;
+          // Use that factory for the visual tree
+          template.VisualTree = elRectangle;
 
-      // Set the items in the ListBox
-      var props = typeof(Brushes).GetProperties();
+          // Set the items in the ListBox
+          var props = typeof(Brushes).GetProperties();
       
-      // Add color selection into our panel
-      foreach (var prop in props) Items.Add((Brush) prop.GetValue(null, null));
+          // Add color selection into our panel
+          foreach (var prop in props) Items.Add((Brush) prop.GetValue(null, null));
+        }
     }
-  }
 }
