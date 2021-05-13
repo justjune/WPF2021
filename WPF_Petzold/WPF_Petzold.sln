@@ -162,6 +162,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_19 485 LoadXamlFile
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_24 660 ButtinWithLocalStyle", "..\Chapter_24 660 ButtinWithLocalStyle\Chapter_24 660 ButtinWithLocalStyle.csproj", "{24DDA5D3-AAB9-4540-9D29-41A56B8731A1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_28_806 FourOverlappingCircles", "..\Chapter_28_806 FourOverlappingCircles\Chapter_28_806 FourOverlappingCircles.csproj", "{7C1151DE-CCBF-4219-BDB6-E3AE8590652A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_28_809 Dumbbell", "..\Chapter_28_809 Dumbbell\Chapter_28_809 Dumbbell.csproj", "{C15C1924-3273-4924-AE5D-9F724BB2C304}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_28_807 CombinedGeometryModes", "..\Chapter_28_807 CombinedGeometryModes\Chapter_28_807 CombinedGeometryModes.csproj", "{630CF5A1-2E95-41C8-AFEE-15A3359E31C6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -488,6 +494,18 @@ Global
 		{24DDA5D3-AAB9-4540-9D29-41A56B8731A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{24DDA5D3-AAB9-4540-9D29-41A56B8731A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{24DDA5D3-AAB9-4540-9D29-41A56B8731A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C1151DE-CCBF-4219-BDB6-E3AE8590652A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C1151DE-CCBF-4219-BDB6-E3AE8590652A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C1151DE-CCBF-4219-BDB6-E3AE8590652A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C1151DE-CCBF-4219-BDB6-E3AE8590652A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C15C1924-3273-4924-AE5D-9F724BB2C304}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C15C1924-3273-4924-AE5D-9F724BB2C304}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C15C1924-3273-4924-AE5D-9F724BB2C304}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C15C1924-3273-4924-AE5D-9F724BB2C304}.Release|Any CPU.Build.0 = Release|Any CPU
+		{630CF5A1-2E95-41C8-AFEE-15A3359E31C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{630CF5A1-2E95-41C8-AFEE-15A3359E31C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{630CF5A1-2E95-41C8-AFEE-15A3359E31C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{630CF5A1-2E95-41C8-AFEE-15A3359E31C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
