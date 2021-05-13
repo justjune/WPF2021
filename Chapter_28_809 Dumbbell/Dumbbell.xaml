@@ -18,15 +18,19 @@
                         <CombinedGeometry.Geometry1>
                             <EllipseGeometry Center="100 100"
                                              RadiusX="50" RadiusY="50" />
+                            <!-- Создаем 1 круг -->
                         </CombinedGeometry.Geometry1>
                         <CombinedGeometry.Geometry2>
                             <RectangleGeometry Rect="100 75 200 50" />
+                            <!-- Создаем прямоугольник -->
                         </CombinedGeometry.Geometry2>
                     </CombinedGeometry>
+                    <!-- CombinedGeometry представляет плоскую геометрическую фигуру, определяемую сочетанием двух объектов Geometry. -->
                 </CombinedGeometry.Geometry1>
                 <CombinedGeometry.Geometry2>
                     <EllipseGeometry Center="300 100"
                                      RadiusX="50" RadiusY="50" />
+                    <!-- Создаем 2 круг -->
                 </CombinedGeometry.Geometry2>
             </CombinedGeometry>
         </Path.Data>
