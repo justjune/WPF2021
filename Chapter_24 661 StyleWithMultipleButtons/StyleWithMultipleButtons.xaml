@@ -1,0 +1,29 @@
+﻿    <!-- определение панели -->
+    <StackPanel
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"      
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    
+    <!-- секция Resources с определением стиля -->
+    <StackPanel.Resources>
+        <Style x:Key="normal">
+            <Setter Property="Control.FontSize"  Value="24" />
+            <Setter Property="Control.Foreground"  Value="Blue" />
+            <Setter Property="Control.HorizontalAlignment" Value="Center" />
+            <Setter Property="Control.Margin"  Value="24" />
+            <Setter Property="Control.Padding"  Value="20, 10, 20, 10" />
+        </Style>
+    </StackPanel.Resources>
+
+    <!-- три кнопки дочерние к StackPanel обращаются к стилю при помощи расширения разметки StaticResource -->
+    <Button Style="{StaticResource normal}">
+        Button Number 1
+    </Button>
+    <Button Style="{StaticResource normal}">
+        Button Number 2
+    </Button>
+    <Button Style="{StaticResource normal}">
+        Button Number 3
+    </Button>
+</StackPanel> 
+   
+
