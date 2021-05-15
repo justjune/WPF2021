@@ -164,6 +164,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_23 641 ColorScrollA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_24 660 ButtinWithLocalStyle", "..\Chapter_24 660 ButtonWithLocalStyle\Chapter_24 660 ButtinWithLocalStyle.csproj", "{24DDA5D3-AAB9-4540-9D29-41A56B8731A1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_20 537 DumpContentPropertyAttributes", "..\Chapter_20 537 DumpContentPropertyAttributes\Chapter_20 537 DumpContentPropertyAttributes.csproj", "{DFD7492B-AAE8-4253-858D-5FFDA7FF0EFF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -494,6 +496,10 @@ Global
 		{24DDA5D3-AAB9-4540-9D29-41A56B8731A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{24DDA5D3-AAB9-4540-9D29-41A56B8731A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{24DDA5D3-AAB9-4540-9D29-41A56B8731A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFD7492B-AAE8-4253-858D-5FFDA7FF0EFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFD7492B-AAE8-4253-858D-5FFDA7FF0EFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFD7492B-AAE8-4253-858D-5FFDA7FF0EFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFD7492B-AAE8-4253-858D-5FFDA7FF0EFF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
