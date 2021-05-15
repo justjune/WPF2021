@@ -1,0 +1,30 @@
+﻿<StackPanel xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+            xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+            DataContext="{Binding ElementName=scroll}">
+    <!-- создаем StackPanel и наполняем его  -->
+    <!-- общее пространство имен -->
+    <!-- специфичное для XAML пространство имен(обозначим их префиксом x) -->
+    <!--используем DataContext для привязки всех обьектов лежащих внутри дерева к scroll'у-->
+
+    <!-- источник привязки. -->
+
+    <ScrollBar Name="scroll"
+               Orientation="Horizontal" Margin="24" 
+               Minimum="1" Maximum="100" LargeChange="10" SmallChange="1" />
+    <!-- создаем ScrollBar с именем scroll задаем положение и отступ задаем некоторые свойства-->
+
+    <!-- Приемник привязки. -->
+
+    <Label HorizontalAlignment="Center"
+           Content="{Binding Path=Value, Mode=OneWay}" />
+    <!--cоздаем label и задаем положение задаем значение content равное value из scroll /Mode - свойство binding (Mode=OneWay означет что привязка работает в одну сторону на прием  -->
+
+    <Button HorizontalAlignment="Center" Margin="24"
+            FontSize="{Binding Path=Value, Mode=OneWay}">
+        <!--cоздаем button задаем положение и отступ задаем значение FontSize равное value из scroll /Mode - свойство binding (Mode=OneWay означет что привязка работает в одну сторону на прием  -->
+        Bound Button
+    </Button>
+    <!--надпись на кнопке... наполнили button-->
+
+</StackPanel>
+<!-- наполнили StackPanel   -->

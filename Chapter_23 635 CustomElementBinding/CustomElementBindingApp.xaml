@@ -1,0 +1,7 @@
+﻿<!-- ==========================================================
+      CustomElementBindingApp.xaml (c) 2006 by Charles Petzold
+     ========================================================== -->
+<Application xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             StartupUri="CustomElementBindingWindow.xaml">
+    <!--Файл определения приложения-->
+</Application>
