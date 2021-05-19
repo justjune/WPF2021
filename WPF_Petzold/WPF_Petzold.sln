@@ -202,6 +202,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_28_809 Dumbbell", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_28_807 CombinedGeometryModes", "..\Chapter_28_807 CombinedGeometryModes\Chapter_28_807 CombinedGeometryModes.csproj", "{630CF5A1-2E95-41C8-AFEE-15A3359E31C6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_30 904 KeyFramePointAnimation", "..\Chapter_30 904 KeyFramePointAnimation\Chapter_30 904 KeyFramePointAnimation.csproj", "{6D71F184-CE12-4948-AF67-3B81B2C0DE43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_30 904 MatrixAnimatedButton", "..\Chapter_30 904 MatrixAnimatedButton\Chapter_30 904 MatrixAnimatedButton.csproj", "{BC6C645E-D1D5-411E-99F6-9BC94CDDC7A5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -608,6 +612,14 @@ Global
 		{5722B45E-B95A-429F-B746-FB78867D2067}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5722B45E-B95A-429F-B746-FB78867D2067}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5722B45E-B95A-429F-B746-FB78867D2067}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D71F184-CE12-4948-AF67-3B81B2C0DE43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D71F184-CE12-4948-AF67-3B81B2C0DE43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D71F184-CE12-4948-AF67-3B81B2C0DE43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D71F184-CE12-4948-AF67-3B81B2C0DE43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC6C645E-D1D5-411E-99F6-9BC94CDDC7A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC6C645E-D1D5-411E-99F6-9BC94CDDC7A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC6C645E-D1D5-411E-99F6-9BC94CDDC7A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC6C645E-D1D5-411E-99F6-9BC94CDDC7A5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
