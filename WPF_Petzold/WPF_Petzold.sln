@@ -208,6 +208,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_30 904 MatrixAnimat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_30 904 PacedAnimation", "..\Chapter_30 904 PacedAnimation\Chapter_30 904 PacedAnimation.csproj", "{78E3A0F2-5149-40BE-A718-67BAC1368F91}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_30 904 NewtonsCradle", "..\Chapter_30 904 NewtonsCradle\Chapter_30 904 NewtonsCradle.csproj", "{83887B53-AA8D-4E66-B731-BEB23907A264}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -626,6 +628,10 @@ Global
 		{78E3A0F2-5149-40BE-A718-67BAC1368F91}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{78E3A0F2-5149-40BE-A718-67BAC1368F91}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{78E3A0F2-5149-40BE-A718-67BAC1368F91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83887B53-AA8D-4E66-B731-BEB23907A264}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83887B53-AA8D-4E66-B731-BEB23907A264}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83887B53-AA8D-4E66-B731-BEB23907A264}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83887B53-AA8D-4E66-B731-BEB23907A264}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
