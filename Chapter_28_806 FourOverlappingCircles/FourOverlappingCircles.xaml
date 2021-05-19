@@ -1,0 +1,27 @@
+﻿<!-- =========================================================
+      FourOverlappingCircles.xaml (c) 2006 by Charles Petzold
+     ========================================================= -->
+<Canvas xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <!-- Определяет область, внутри которой можно явным образом разместить дочерние элементы с помощью координат, относящихся к области Canvas -->
+
+    <Path Fill="Blue" Stroke="Red" StrokeThickness="3">
+        <!-- заполняем голубым цветом, границу красным -->
+        <Path.Data>
+            <GeometryGroup>
+                <!-- Представляет составной геометрический объект, состоящий из других объектов Geometry.
+                GeometryGroup использует FillRule(Получает или задает способ объединения пересекающихся областей объектов, содержащихся в данном) свойство для указания способа объединения объектов Geometry.
+                GeometryGroup Создает составной геометрический объект из одного или нескольких Geometry объектов.-->
+                <EllipseGeometry Center="150 150" RadiusX="100" RadiusY="100" />
+                <!-- задаем координаты центра и радиус у 1 круга -->
+                <EllipseGeometry Center="250 150" RadiusX="100" RadiusY="100" />
+                <!-- задаем координаты центра и радиус у 2 круга -->
+                <EllipseGeometry Center="150 250" RadiusX="100" RadiusY="100" />
+                <!-- задаем координаты центра и радиус у 3 круга -->
+                <EllipseGeometry Center="250 250" RadiusX="100" RadiusY="100" />
+                <!-- задаем координаты центра и радиус у 4 круга -->
+            </GeometryGroup>
+        </Path.Data>
+    </Path>
+</Canvas>
+

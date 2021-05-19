@@ -1,0 +1,111 @@
+﻿<!-- ========================================================
+      CombinedGeometryModes.xaml (c) 2006 by Charles Petzold 
+     ======================================================== -->
+<UniformGrid xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             Rows="2" Columns="2" TextBlock.FontSize="12pt">
+    <!-- все происходит на примере двух перекрывающихся кругов -->
+
+    <UniformGrid.Resources>
+        <!-- Предоставляет способ упорядочивания содержимого в сетке, при котором все ячейки в сетке будут одинакового размера -->
+        <Style TargetType="{x:Type Path}">
+            <Setter Property="HorizontalAlignment" Value="Center" />
+            <Setter Property="VerticalAlignment" Value="Center" />
+            <Setter Property="Fill" Value="Blue" />
+            <Setter Property="Stroke" Value="Red" />
+            <Setter Property="StrokeThickness" Value="5" />
+        </Style>
+    </UniformGrid.Resources>
+
+    <!-- GeometryCombineMode(Задает различные методы комбинирования двух геометрий) = "Union"
+    (Две области комбинируются путем создания их объединения. Результирующей геометрией является геометрия A + геометрия B.). -->
+
+    <Grid>
+        <TextBlock HorizontalAlignment="Center">
+            GeometryCombineMode="Union"
+        </TextBlock>
+        <Path>
+            <Path.Data>
+                <CombinedGeometry GeometryCombineMode="Union">
+                    <CombinedGeometry.Geometry1>
+                        <EllipseGeometry Center="96 96" 
+                                         RadiusX="96" RadiusY="96" />
+                    </CombinedGeometry.Geometry1>
+                    <CombinedGeometry.Geometry2>
+                        <EllipseGeometry Center="48 48"
+                                            RadiusX="96" RadiusY="96" />
+                    </CombinedGeometry.Geometry2>
+                </CombinedGeometry>
+            </Path.Data>
+        </Path>
+    </Grid>
+
+    <!-- GeometryCombineMode = "Intersect".(Две области комбинируются путем создания их пересечения. Новая область состоит из области пересечения двух геометрий.) -->
+
+    <Grid>
+        <TextBlock HorizontalAlignment="Center">
+            GeometryCombineMode="Intersect"
+        </TextBlock>
+        <Path>
+            <Path.Data>
+                <CombinedGeometry GeometryCombineMode="Intersect">
+                    <CombinedGeometry.Geometry1>
+                        <EllipseGeometry Center="96 96" 
+                                         RadiusX="96" RadiusY="96" />
+                    </CombinedGeometry.Geometry1>
+                    <CombinedGeometry.Geometry2>
+                        <EllipseGeometry Center="48 48" 
+                                         RadiusX="96" RadiusY="96" />
+                    </CombinedGeometry.Geometry2>
+                </CombinedGeometry>
+            </Path.Data>
+        </Path>
+    </Grid>
+
+    <!-- GeometryCombineMode = "Xor".
+    (Две области комбинируются путем объединения области, которая входит в первую, но не входит во вторую, с областью, которая входит во вторую, но не входит в первую. 
+    Новая область состоит из (A-B) + (B-A), где A и B — геометрии.) -->
+
+    <Grid>
+        <TextBlock HorizontalAlignment="Center">
+            GeometryCombineMode="Xor"
+        </TextBlock>
+        <Path>
+            <Path.Data>
+                <CombinedGeometry GeometryCombineMode="Xor">
+                    <CombinedGeometry.Geometry1>
+                        <EllipseGeometry Center="96 96" 
+                                         RadiusX="96" RadiusY="96" />
+                    </CombinedGeometry.Geometry1>
+                    <CombinedGeometry.Geometry2>
+                        <EllipseGeometry Center="48 48" 
+                                         RadiusX="96" RadiusY="96" />
+                    </CombinedGeometry.Geometry2>
+                </CombinedGeometry>
+            </Path.Data>
+        </Path>
+    </Grid>
+
+    <!-- GeometryCombineMode = "Exclude".(Вторая область исключается из первой. 
+    Если имеются две геометрии, A и B, то область геометрии B удаляется из области геометрии A, в результате чего получается область A-B.) -->
+
+    <Grid>
+        <TextBlock HorizontalAlignment="Center">
+            GeometryCombineMode="Exclude"
+        </TextBlock>
+        <Path>
+            <Path.Data>
+                <CombinedGeometry GeometryCombineMode="Exclude">
+                    <CombinedGeometry.Geometry1>
+                        <EllipseGeometry Center="96 96" 
+                                         RadiusX="96" RadiusY="96" />
+                    </CombinedGeometry.Geometry1>
+                    <CombinedGeometry.Geometry2>
+                        <EllipseGeometry Center="48 48" 
+                                         RadiusX="96" RadiusY="96" />
+                    </CombinedGeometry.Geometry2>
+                </CombinedGeometry>
+            </Path.Data>
+        </Path>
+    </Grid>
+</UniformGrid>
