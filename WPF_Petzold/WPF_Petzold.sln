@@ -196,6 +196,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_23 635 CustomElemen
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_23 632 WhatSize", "..\Chapter_23 632 WhatSize\Chapter_23 632 WhatSize.csproj", "{5722B45E-B95A-429F-B746-FB78867D2067}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_28 828 TextGeometry", "..\Chapter_28 828 TextGeometry\Chapter_28 828 TextGeometry.csproj", "{A6B3B3B2-3FA7-4E26-B852-BCAE895A7EA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_30 867 EnlargeButtonWithTimer", "..\Chapter_30 867 EnlargeButtonWithTimer\Chapter_30 867 EnlargeButtonWithTimer.csproj", "{655E7009-FDDA-49AB-A1DF-F31521919B52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_30 869 EnlargeButtonWithAnimation", "..\Chapter_30 869 EnlargeButtonWithAnimation\Chapter_30 869 EnlargeButtonWithAnimation.csproj", "{3A44EB90-6781-4FA5-A3D3-7BF5FBA45C88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_30 895 RenderTheAnimation", "..\Chapter_30 895 RenderTheAnimation\Chapter_30 895 RenderTheAnimation.csproj", "{3A9BA1B6-AE5B-4B3A-BEDA-52010EF5B2B1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -590,6 +598,22 @@ Global
 		{5722B45E-B95A-429F-B746-FB78867D2067}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5722B45E-B95A-429F-B746-FB78867D2067}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5722B45E-B95A-429F-B746-FB78867D2067}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6B3B3B2-3FA7-4E26-B852-BCAE895A7EA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6B3B3B2-3FA7-4E26-B852-BCAE895A7EA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6B3B3B2-3FA7-4E26-B852-BCAE895A7EA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6B3B3B2-3FA7-4E26-B852-BCAE895A7EA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{655E7009-FDDA-49AB-A1DF-F31521919B52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{655E7009-FDDA-49AB-A1DF-F31521919B52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{655E7009-FDDA-49AB-A1DF-F31521919B52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{655E7009-FDDA-49AB-A1DF-F31521919B52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A44EB90-6781-4FA5-A3D3-7BF5FBA45C88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A44EB90-6781-4FA5-A3D3-7BF5FBA45C88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A44EB90-6781-4FA5-A3D3-7BF5FBA45C88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A44EB90-6781-4FA5-A3D3-7BF5FBA45C88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A9BA1B6-AE5B-4B3A-BEDA-52010EF5B2B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A9BA1B6-AE5B-4B3A-BEDA-52010EF5B2B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A9BA1B6-AE5B-4B3A-BEDA-52010EF5B2B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A9BA1B6-AE5B-4B3A-BEDA-52010EF5B2B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
