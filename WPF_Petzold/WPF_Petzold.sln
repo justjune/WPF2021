@@ -168,6 +168,18 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_24_673_DrawGrid", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_24_674_DocumentStyles", "..\Chapter_24_674_DocumentStyles\Chapter_24_674_DocumentStyles.csproj", "{E4F2DB44-8CAA-426D-A79B-664A6A4489D5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_28_815_ArcPossibilities2", "..\Chapter_28_815_ArcPossibilities2\Chapter_28_815_ArcPossibilities2.csproj", "{169F800C-9464-45E4-B124-7D3DA783CF53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_28 812 PolyLineSegmentDemo", "..\Chapter_28 812 PolyLineSegmentDemo\Chapter_28 812 PolyLineSegmentDemo.csproj", "{D9FC8E9F-76ED-4642-AC87-077AF72D04D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_28 816 FigureWithArcs", "..\Chapter_28 816 FigureWithArcs\Chapter_28 816 FigureWithArcs.csproj", "{98821A06-6848-4A4B-B3A6-EF239BBDB874}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_30 901 InfinityAnimation1", "..\Chapter_30 901 InfinityAnimation1\Chapter_30 901 InfinityAnimation1.csproj", "{6DF161F2-428F-4C9F-AE7E-780F795F68FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_30 903 InfinityAnimation2", "..\Chapter_30 903 InfinityAnimation1\Chapter_30 903 InfinityAnimation2.csproj", "{18A86AA3-6F85-4E8B-8EB0-56F5E83C3868}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_30 884 FishEyeButtons2", "..\Chapter_30 884 FishEyeButtons2\Chapter_30 884 FishEyeButtons2.csproj", "{A3339027-9A1D-4546-AA45-E39A30D421F8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -506,6 +518,30 @@ Global
 		{E4F2DB44-8CAA-426D-A79B-664A6A4489D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E4F2DB44-8CAA-426D-A79B-664A6A4489D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E4F2DB44-8CAA-426D-A79B-664A6A4489D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{169F800C-9464-45E4-B124-7D3DA783CF53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{169F800C-9464-45E4-B124-7D3DA783CF53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{169F800C-9464-45E4-B124-7D3DA783CF53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{169F800C-9464-45E4-B124-7D3DA783CF53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9FC8E9F-76ED-4642-AC87-077AF72D04D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9FC8E9F-76ED-4642-AC87-077AF72D04D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9FC8E9F-76ED-4642-AC87-077AF72D04D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9FC8E9F-76ED-4642-AC87-077AF72D04D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98821A06-6848-4A4B-B3A6-EF239BBDB874}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98821A06-6848-4A4B-B3A6-EF239BBDB874}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98821A06-6848-4A4B-B3A6-EF239BBDB874}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98821A06-6848-4A4B-B3A6-EF239BBDB874}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DF161F2-428F-4C9F-AE7E-780F795F68FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DF161F2-428F-4C9F-AE7E-780F795F68FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DF161F2-428F-4C9F-AE7E-780F795F68FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DF161F2-428F-4C9F-AE7E-780F795F68FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18A86AA3-6F85-4E8B-8EB0-56F5E83C3868}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18A86AA3-6F85-4E8B-8EB0-56F5E83C3868}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18A86AA3-6F85-4E8B-8EB0-56F5E83C3868}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18A86AA3-6F85-4E8B-8EB0-56F5E83C3868}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3339027-9A1D-4546-AA45-E39A30D421F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3339027-9A1D-4546-AA45-E39A30D421F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3339027-9A1D-4546-AA45-E39A30D421F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3339027-9A1D-4546-AA45-E39A30D421F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
