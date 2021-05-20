@@ -1,0 +1,26 @@
+﻿<Canvas xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"     
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Path Fill="Red">
+        <Path.Data>
+            <EllipseGeometry x:Name="elips"  RadiusX="24" RadiusY="24" />
+        </Path.Data>
+    </Path>
+    <Canvas.Triggers>
+        <EventTrigger RoutedEvent="Canvas.Loaded">
+            <BeginStoryboard>
+                <Storyboard TargetName="elips"  TargetProperty="Center">
+                    <PointAnimationUsingKeyFrames  Duration="0:0:4" RepeatBehavior="Forever">
+                        <!-- Начальное положение эллипса не (0, 0), а (288, 96) -->
+                        <DiscretePointKeyFrame  KeyTime="0:0:0" Value="288 96" />
+                        <!-- Через секунду, эллипс прыгает на новую координату (480, 288) -->
+                        <DiscretePointKeyFrame  KeyTime="0:0:1" Value="480 288" />
+                        <DiscretePointKeyFrame  KeyTime="0:0:2" Value="288 480" />
+                        <!-- После последнего прыжка, эллипс из (96, 288) перейдет в начальное положение (288, 96) -->
+                        <DiscretePointKeyFrame  KeyTime="0:0:3" Value="96 288" />
+                        <!-- При отключении Duration, анимация будет проходить не четыре секунды, а три, то есть эллипс останется в (96, 288) -->
+                    </PointAnimationUsingKeyFrames>
+                </Storyboard>
+            </BeginStoryboard>
+        </EventTrigger>
+    </Canvas.Triggers>
+</Canvas> 
