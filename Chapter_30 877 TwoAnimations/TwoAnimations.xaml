@@ -1,0 +1,30 @@
+﻿<Canvas xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com /winfx/2006/xaml">
+    <!-- создаем поле canvas и наполняем его .общее пространство имен далее идет специфичное для XAML пространство имен(обозначим их префиксом x) -->
+    <Ellipse Width="48" Height="48" Fill="Red"              
+			Canvas.Left="0" Canvas.Top="0">
+        <!-- создаем круг( задаем равные размеру эллипса и закрашиваем его. ставим нащ круг в начало координат поля canvas -->
+        <Ellipse.Triggers>
+            <!-- определяем "триггер" для нашего эллипса-->
+            <EventTrigger RoutedEvent="Ellipse .MouseDown">
+                <!--RoutedEvent - свойство класса EventTrigger задает конкретное инициирующее событие(Ellipse .MouseDown)   -->
+                <BeginStoryboard>
+                    <!-- BeginStoryboard - производный класс от обьекта TriggerAction (который в свою очередь относитьсчя к свойству Action класса EventTrigger  -->
+                    <Storyboard>
+                        <!-- Storyboard дочерний эелемент BeginStoryboard (обязателен) -->
+                        <DoubleAnimation                             
+							Storyboard.TargetProperty="(Canvas.Left)"                             
+							From="0" To="288"  Duration="0:0:1"                             
+							AutoReverse="True" />
+                        <!--задаем изменяемое свойство(Canvas.Left). AutoReverse="True" - произвести анимацию в обратном порядке.  DoubleAnimation - линейное изменение свойства double-->
+                        <DoubleAnimation                             
+							Storyboard.TargetProperty="(Canvas.Top)"                             
+							From="0" To="480"  Duration="0:0:5"                             
+							AutoReverse="True" />
+                        <!--задаем изменяемое свойство(Canvas.Top). AutoReverse="True" - произвести анимацию в обратном порядке.  DoubleAnimation - линейное изменение свойства double-->
+                    </Storyboard>
+                </BeginStoryboard>
+            </EventTrigger>
+        </Ellipse.Triggers>
+    </Ellipse>
+</Canvas>

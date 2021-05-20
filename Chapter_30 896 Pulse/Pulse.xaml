@@ -1,0 +1,36 @@
+﻿<!-- ==========================================
+      Pulsing.xaml (c) 2006 by Charles Petzold 
+     ========================================== -->
+<Page xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Ellipse HorizontalAlignment="Center" VerticalAlignment="Center"
+             Width="48" Fill="Red"
+             Height="{Binding RelativeSource={RelativeSource self}, 
+                              Path=Width}">
+        <!-- 
+             Выравниваем эллипс по горизонтали и по вертикали в центр
+             Ширина эллиса 48 единиц, цвет красный
+             Свойство height привязано к свойству width, поэтому оба свойства изменяются одинакова
+        -->
+
+        <Ellipse.Triggers>
+            <EventTrigger RoutedEvent="Ellipse.Loaded">
+                <BeginStoryboard>
+                    <Storyboard TargetProperty="Width" 
+                                RepeatBehavior="Forever">
+                        <DoubleAnimation From="48" To="288" 
+                                         Duration="0:0:0.25"
+                                         BeginTime="0:0:1"
+                                         RepeatBehavior="2x"
+                                         FillBehavior="Stop" />
+                    </Storyboard>
+                </BeginStoryboard>
+            </EventTrigger>
+        </Ellipse.Triggers>
+        <!--
+             У элемента Storyboard атрибут RepeatBehavior задан равным
+             Forever, чтобы анимация DoubleAnimation повторялась неограниченное долго
+        -->
+    </Ellipse>
+</Page>
