@@ -214,6 +214,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_30 904 PacedAnimati
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_30 904 NewtonsCradle", "..\Chapter_30 904 NewtonsCradle\Chapter_30 904 NewtonsCradle.csproj", "{83887B53-AA8D-4E66-B731-BEB23907A264}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_28 824 Infinity", "..\Chapter_28 824 Infinity\Chapter_28 824 Infinity.csproj", "{C03F0F9A-0B30-4ACE-BBE4-86ADDA384BB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_28 823 SimulatedCircle", "..\Chapter_28 823 SimulatedCircle\Chapter_28 823 SimulatedCircle.csproj", "{6A682C27-9BC9-40C4-A610-A93DD3305AA2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -644,6 +648,14 @@ Global
 		{83887B53-AA8D-4E66-B731-BEB23907A264}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83887B53-AA8D-4E66-B731-BEB23907A264}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{83887B53-AA8D-4E66-B731-BEB23907A264}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C03F0F9A-0B30-4ACE-BBE4-86ADDA384BB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C03F0F9A-0B30-4ACE-BBE4-86ADDA384BB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C03F0F9A-0B30-4ACE-BBE4-86ADDA384BB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C03F0F9A-0B30-4ACE-BBE4-86ADDA384BB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A682C27-9BC9-40C4-A610-A93DD3305AA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A682C27-9BC9-40C4-A610-A93DD3305AA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A682C27-9BC9-40C4-A610-A93DD3305AA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A682C27-9BC9-40C4-A610-A93DD3305AA2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
