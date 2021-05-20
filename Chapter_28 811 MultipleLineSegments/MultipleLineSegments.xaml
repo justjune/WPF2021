@@ -1,0 +1,27 @@
+﻿<Window x:Class="comment.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:comment"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Canvas>
+        <!--класс canvas, т.е объявляем область, внутри которой можно явным образом разместить дочерние элементы-->
+        <Path Fill="Aqua" Stroke="Maroon"  StrokeThickness="3">
+            <!--Объект Path может рисовать закрытые или открытые фигуры-->
+            <Path.Data>
+                <PathGeometry>
+                    <PathFigure StartPoint="144 72">
+                        <!--указывается стартовая точка-->
+                        <LineSegment Point="200 246" />
+                        <!--Объекты LineSegment рисуют линии от точки до точки-->
+                        <LineSegment Point="53 138" />
+                        <LineSegment Point="235 138" />
+                        <LineSegment Point="88 246" />
+                    </PathFigure>
+                </PathGeometry>
+            </Path.Data>
+        </Path>
+    </Canvas>
+</Window>

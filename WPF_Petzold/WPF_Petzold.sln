@@ -180,6 +180,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_30 903 InfinityAnim
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_30 884 FishEyeButtons2", "..\Chapter_30 884 FishEyeButtons2\Chapter_30 884 FishEyeButtons2.csproj", "{A3339027-9A1D-4546-AA45-E39A30D421F8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_28 811 MultipleLineSegments", "..\Chapter_28 811 MultipleLineSegments\Chapter_28 811 MultipleLineSegments.csproj", "{614DC158-CF4E-4844-B733-4360F8BBFAA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_28 815 ArcPossibilities2", "..\Chapter_28 815 ArcPossibilities2\Chapter_28 815 ArcPossibilities2.csproj", "{B3D9AFC7-0650-47BE-BF0D-21C09E84E642}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_30 882 FishEyeButtons1", "..\Chapter_30 882 FishEyeButtons1\Chapter_30 882 FishEyeButtons1.csproj", "{B45378C5-3F03-4367-A623-171921E1D5EC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -542,6 +548,18 @@ Global
 		{A3339027-9A1D-4546-AA45-E39A30D421F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3339027-9A1D-4546-AA45-E39A30D421F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3339027-9A1D-4546-AA45-E39A30D421F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{614DC158-CF4E-4844-B733-4360F8BBFAA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{614DC158-CF4E-4844-B733-4360F8BBFAA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{614DC158-CF4E-4844-B733-4360F8BBFAA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{614DC158-CF4E-4844-B733-4360F8BBFAA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3D9AFC7-0650-47BE-BF0D-21C09E84E642}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3D9AFC7-0650-47BE-BF0D-21C09E84E642}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3D9AFC7-0650-47BE-BF0D-21C09E84E642}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3D9AFC7-0650-47BE-BF0D-21C09E84E642}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B45378C5-3F03-4367-A623-171921E1D5EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B45378C5-3F03-4367-A623-171921E1D5EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B45378C5-3F03-4367-A623-171921E1D5EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B45378C5-3F03-4367-A623-171921E1D5EC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
