@@ -8,7 +8,7 @@ using System.Windows.Media;
 
 namespace Petzold.CustomElementBinding
 {
-    class SimpleElement : FrameworkElement
+    public partial class SimpleElement : FrameworkElement
     {
         // Определение DependencyProperty.
         public static DependencyProperty NumberProperty;
