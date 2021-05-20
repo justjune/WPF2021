@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Общие сведения об этой сборке предоставляются следующим набором
 // набора атрибутов. Измените значения этих атрибутов для изменения сведений,
 // связанные с этой сборкой.
-[assembly: AssemblyTitle("Chapter_28_807 CombinedGeometryModes")]
+[assembly: AssemblyTitle("Chapter_28 823 SimulatedCircle")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("HP Inc.")]
-[assembly: AssemblyProduct("Chapter_28_807 CombinedGeometryModes")]
+[assembly: AssemblyProduct("Chapter_28 823 SimulatedCircle")]
 [assembly: AssemblyCopyright("Copyright © HP Inc. 2021")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Следующий GUID представляет идентификатор typelib, если этот проект доступен из модели COM
-[assembly: Guid("630cf5a1-2e95-41c8-afee-15a3359e31c6")]
+[assembly: Guid("6a682c27-9bc9-40c4-a610-a93dd3305aa2")]
 
 // Сведения о версии сборки состоят из указанных ниже четырех значений:
 //

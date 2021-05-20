@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Общие сведения об этой сборке предоставляются следующим набором
 // набора атрибутов. Измените значения этих атрибутов для изменения сведений,
 // связанные с этой сборкой.
-[assembly: AssemblyTitle("Chapter_28_809 Dumbbell")]
+[assembly: AssemblyTitle("Chapter_28 824 Infinity")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("HP Inc.")]
-[assembly: AssemblyProduct("Chapter_28_809 Dumbbell")]
+[assembly: AssemblyProduct("Chapter_28 824 Infinity")]
 [assembly: AssemblyCopyright("Copyright © HP Inc. 2021")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Следующий GUID представляет идентификатор typelib, если этот проект доступен из модели COM
-[assembly: Guid("c15c1924-3273-4924-ae5d-9f724bb2c304")]
+[assembly: Guid("c03f0f9a-0b30-4ace-bbe4-86adda384bb4")]
 
 // Сведения о версии сборки состоят из указанных ниже четырех значений:
 //

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7C1151DE-CCBF-4219-BDB6-E3AE8590652A}</ProjectGuid>
+    <ProjectGuid>{6A682C27-9BC9-40C4-A610-A93DD3305AA2}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Chapter_28_806_FourOverlappingCircles</RootNamespace>
-    <AssemblyName>Chapter_28_806 FourOverlappingCircles</AssemblyName>
+    <RootNamespace>Chapter_28_823_SimulatedCircle</RootNamespace>
+    <AssemblyName>Chapter_28 823 SimulatedCircle</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -53,7 +53,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Page Include="FourOverlappingCircles.xaml">
+    <Page Include="SimulatedCircle.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
