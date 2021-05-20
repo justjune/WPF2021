@@ -13,7 +13,7 @@
             Do-nothing button to test tabbing
         </Button>
 
-        <src:ColorWheel   HorizontalAlignment="Center" 
+        <src:ColorWheel HorizontalAlignment="Center" 
                           VerticalAlignment="Center"
                           Margin="24"
                           SelectionChanged="ColorGridBoxOnSelectionChanged"/>

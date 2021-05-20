@@ -1,0 +1,23 @@
+﻿<Page xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"    
+        xmlns:x="http://schemas.microsoft.com/winfx /2006/xaml">
+    <Button FontSize="12"   
+          HorizontalAlignment="Center" Height="100" VerticalAlignment="Center" Width="103" RenderTransformOrigin="0.501,0.57">
+
+        Expanding Button
+        <!-- Секция Trigger часть элемента Button -->
+        <Button.Triggers>
+            <!-- Поэтому источником для EventTrigger становится сам объект Button -->
+            <EventTrigger RoutedEvent="Button.Click">
+                <!-- Click - инициирующие событие -->
+                <BeginStoryboard>
+                    <Storyboard  TargetProperty="FontSize">
+                        <!-- В элементе Storyboard указано целевое свойство анимации TargetProperty, но TargetProperty как присоединенное свойство может быть вынесено в элемент DoubleAnimation -->
+                        <DoubleAnimation From="12"  To="20"            
+                               Duration="0:0:4"             
+                              FillBehavior="Stop" />
+                    </Storyboard>
+                </BeginStoryboard>
+            </EventTrigger>
+        </Button.Triggers>
+    </Button>
+</Page> 
