@@ -180,8 +180,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_24_674_DocumentStyl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_23 641 ColorScrollApp", "..\Chapter_23 641 ColorScrollApp\Chapter_23 641 ColorScrollApp.csproj", "{632DED9D-56F4-4115-A384-627FA9404833}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_24 660 ButtinWithLocalStyle", "..\Chapter_24 660 ButtonWithLocalStyle\Chapter_24 660 ButtinWithLocalStyle.csproj", "{24DDA5D3-AAB9-4540-9D29-41A56B8731A1}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_20 537 DumpContentPropertyAttributes", "..\Chapter_20 537 DumpContentPropertyAttributes\Chapter_20 537 DumpContentPropertyAttributes.csproj", "{DFD7492B-AAE8-4253-858D-5FFDA7FF0EFF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_23 627 BindLabelToScrollBar", "..\Chapter_23 627 BindLabelToScrollBar\Chapter_23 627 BindLabelToScrollBar.csproj", "{5A4187C0-CD50-48AF-A5D0-13B514EC4E8D}"
@@ -195,6 +193,12 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_23 635 CustomElementBinding", "..\Chapter_23 635 CustomElementBinding\Chapter_23 635 CustomElementBinding.csproj", "{45ECFAD2-55A3-4B74-AC4E-5DBE3305A513}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_23 632 WhatSize", "..\Chapter_23 632 WhatSize\Chapter_23 632 WhatSize.csproj", "{5722B45E-B95A-429F-B746-FB78867D2067}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_30 873 EnlargeButtonInXaml", "..\Chapter_30 873 EnlargeButtonInXaml\Chapter_30 873 EnlargeButtonInXaml.csproj", "{8BE0F4C5-0D65-45D0-B943-8C01467158AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_24 660 ButtonWithLocalStyle", "..\Chapter_24 660 ButtonWithLocalStyle\Chapter_24 660 ButtonWithLocalStyle.csproj", "{678AF2FE-0186-4CC2-B348-FC946C4B369E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_30 904 DiscretePointJumps", "..\Chapter_30 904 DiscretePointJumps\Chapter_30 904 DiscretePointJumps.csproj", "{594A4005-002F-439A-AD75-30F464406A0E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_28_806 FourOverlappingCircles", "..\Chapter_28_806 FourOverlappingCircles\Chapter_28_806 FourOverlappingCircles.csproj", "{7C1151DE-CCBF-4219-BDB6-E3AE8590652A}"
 EndProject
@@ -572,10 +576,6 @@ Global
 		{632DED9D-56F4-4115-A384-627FA9404833}.Debug|Any CPU.Build.0 = Release|Any CPU
 		{632DED9D-56F4-4115-A384-627FA9404833}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{632DED9D-56F4-4115-A384-627FA9404833}.Release|Any CPU.Build.0 = Release|Any CPU
-		{24DDA5D3-AAB9-4540-9D29-41A56B8731A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{24DDA5D3-AAB9-4540-9D29-41A56B8731A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{24DDA5D3-AAB9-4540-9D29-41A56B8731A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{24DDA5D3-AAB9-4540-9D29-41A56B8731A1}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DFD7492B-AAE8-4253-858D-5FFDA7FF0EFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DFD7492B-AAE8-4253-858D-5FFDA7FF0EFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DFD7492B-AAE8-4253-858D-5FFDA7FF0EFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -604,6 +604,18 @@ Global
 		{5722B45E-B95A-429F-B746-FB78867D2067}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5722B45E-B95A-429F-B746-FB78867D2067}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5722B45E-B95A-429F-B746-FB78867D2067}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BE0F4C5-0D65-45D0-B943-8C01467158AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BE0F4C5-0D65-45D0-B943-8C01467158AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BE0F4C5-0D65-45D0-B943-8C01467158AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BE0F4C5-0D65-45D0-B943-8C01467158AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{678AF2FE-0186-4CC2-B348-FC946C4B369E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{678AF2FE-0186-4CC2-B348-FC946C4B369E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{678AF2FE-0186-4CC2-B348-FC946C4B369E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{678AF2FE-0186-4CC2-B348-FC946C4B369E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{594A4005-002F-439A-AD75-30F464406A0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{594A4005-002F-439A-AD75-30F464406A0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{594A4005-002F-439A-AD75-30F464406A0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{594A4005-002F-439A-AD75-30F464406A0E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7C1151DE-CCBF-4219-BDB6-E3AE8590652A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7C1151DE-CCBF-4219-BDB6-E3AE8590652A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C1151DE-CCBF-4219-BDB6-E3AE8590652A}.Release|Any CPU.ActiveCfg = Release|Any CPU

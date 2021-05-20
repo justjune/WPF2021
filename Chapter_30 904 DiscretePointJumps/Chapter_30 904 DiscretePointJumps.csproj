@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{24DDA5D3-AAB9-4540-9D29-41A56B8731A1}</ProjectGuid>
+    <ProjectGuid>{594A4005-002F-439A-AD75-30F464406A0E}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Chapter_24_660_ButtinWithLocalStyle</RootNamespace>
-    <AssemblyName>Chapter_24 660 ButtinWithLocalStyle</AssemblyName>
+    <RootNamespace>Chapter_30_904_DiscretePointJumps</RootNamespace>
+    <AssemblyName>Chapter_30 904 DiscretePointJumps</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -36,7 +36,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Page Include="ButtonWithLocalStyle.xaml">
+    <Page Include="DiscretePointJumps.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
