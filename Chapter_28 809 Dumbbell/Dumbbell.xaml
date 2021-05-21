@@ -1,0 +1,29 @@
+﻿<Canvas xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Path Fill="DarkGray" Stroke="Black" StrokeThickness="5">
+        <!-- Цвет заливки, границы и толщина границы -->
+        <Path.Data>
+            <CombinedGeometry GeometryCombineMode="Union">
+                <CombinedGeometry.Geometry1>
+                    <CombinedGeometry GeometryCombineMode="Union">
+                        <CombinedGeometry.Geometry1>
+                            <EllipseGeometry Center="100 100"
+                                             RadiusX="50" RadiusY="50" />
+                            <!-- Координаты центра и радиус круга -->
+                        </CombinedGeometry.Geometry1>
+                        <CombinedGeometry.Geometry2>
+                            <RectangleGeometry Rect="100 75 200 50" />
+                            <!-- Координаты точек прямоугольника -->
+                        </CombinedGeometry.Geometry2>
+                    </CombinedGeometry>
+                </CombinedGeometry.Geometry1>
+                <CombinedGeometry.Geometry2>
+                    <EllipseGeometry Center="300 100"
+                                     RadiusX="50" RadiusY="50" />
+                    <!-- Координаты центра и радиус круга -->
+                </CombinedGeometry.Geometry2>
+            </CombinedGeometry>
+        </Path.Data>
+    </Path>
+</Canvas>
