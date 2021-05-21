@@ -178,7 +178,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_24_673_DrawGrid", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_24_674_DocumentStyles", "..\Chapter_24_674_DocumentStyles\Chapter_24_674_DocumentStyles.csproj", "{E4F2DB44-8CAA-426D-A79B-664A6A4489D5}"
 EndProject
-<<<<<<< HEAD
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_28_815_ArcPossibilities2", "..\Chapter_28_815_ArcPossibilities2\Chapter_28_815_ArcPossibilities2.csproj", "{169F800C-9464-45E4-B124-7D3DA783CF53}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_28 812 PolyLineSegmentDemo", "..\Chapter_28 812 PolyLineSegmentDemo\Chapter_28 812 PolyLineSegmentDemo.csproj", "{D9FC8E9F-76ED-4642-AC87-077AF72D04D6}"
@@ -196,7 +195,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_28 815 ArcPossibilities2", "..\Chapter_28 815 ArcPossibilities2\Chapter_28 815 ArcPossibilities2.csproj", "{B3D9AFC7-0650-47BE-BF0D-21C09E84E642}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_30 882 FishEyeButtons1", "..\Chapter_30 882 FishEyeButtons1\Chapter_30 882 FishEyeButtons1.csproj", "{B45378C5-3F03-4367-A623-171921E1D5EC}"
-=======
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_23 641 ColorScrollApp", "..\Chapter_23 641 ColorScrollApp\Chapter_23 641 ColorScrollApp.csproj", "{632DED9D-56F4-4115-A384-627FA9404833}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_20 537 DumpContentPropertyAttributes", "..\Chapter_20 537 DumpContentPropertyAttributes\Chapter_20 537 DumpContentPropertyAttributes.csproj", "{DFD7492B-AAE8-4253-858D-5FFDA7FF0EFF}"
@@ -260,7 +258,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_30 869 EnlargeButtonWithAnimation", "..\Chapter_30 869 EnlargeButtonWithAnimation\Chapter_30 869 EnlargeButtonWithAnimation.csproj", "{3A44EB90-6781-4FA5-A3D3-7BF5FBA45C88}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_30 895 RenderTheAnimation", "..\Chapter_30 895 RenderTheAnimation\Chapter_30 895 RenderTheAnimation.csproj", "{3A9BA1B6-AE5B-4B3A-BEDA-52010EF5B2B1}"
->>>>>>> ee52b1535fc53e07fc9fd1aa60fd9045ec70648e
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -620,7 +617,6 @@ Global
 		{E4F2DB44-8CAA-426D-A79B-664A6A4489D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E4F2DB44-8CAA-426D-A79B-664A6A4489D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E4F2DB44-8CAA-426D-A79B-664A6A4489D5}.Release|Any CPU.Build.0 = Release|Any CPU
-<<<<<<< HEAD
 		{169F800C-9464-45E4-B124-7D3DA783CF53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{169F800C-9464-45E4-B124-7D3DA783CF53}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{169F800C-9464-45E4-B124-7D3DA783CF53}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -657,7 +653,6 @@ Global
 		{B45378C5-3F03-4367-A623-171921E1D5EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B45378C5-3F03-4367-A623-171921E1D5EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B45378C5-3F03-4367-A623-171921E1D5EC}.Release|Any CPU.Build.0 = Release|Any CPU
-=======
 		{632DED9D-56F4-4115-A384-627FA9404833}.Debug|Any CPU.ActiveCfg = Release|Any CPU
 		{632DED9D-56F4-4115-A384-627FA9404833}.Debug|Any CPU.Build.0 = Release|Any CPU
 		{632DED9D-56F4-4115-A384-627FA9404833}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -786,7 +781,6 @@ Global
 		{3A9BA1B6-AE5B-4B3A-BEDA-52010EF5B2B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A9BA1B6-AE5B-4B3A-BEDA-52010EF5B2B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A9BA1B6-AE5B-4B3A-BEDA-52010EF5B2B1}.Release|Any CPU.Build.0 = Release|Any CPU
->>>>>>> ee52b1535fc53e07fc9fd1aa60fd9045ec70648e
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
