@@ -1,0 +1,11 @@
+﻿<Button xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d"
+      HorizontalAlignment="Center" VerticalAlignment="Center"
+      Foreground="Red" Height="40" Content="Button with Local Style" d:DesignWidth="254.8">
+    <Button.Style>
+        <Style>
+            <Setter Property="Control.FontSize"  Value="18pt" />
+            <Setter Property="Control.Foreground"  Value="Blue" />
+        </Style>
+    </Button.Style>
+</Button>

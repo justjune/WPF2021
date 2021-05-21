@@ -1,0 +1,49 @@
+﻿<!-- ===========================================
+      Infinity.xaml (c) 2006 by Charles Petzold 
+     =========================================== -->
+<Canvas xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <!--Используя свойство Points элемента PolyBezierSegment рисуем символ бесконечности, нарисованный знак будет закрашиваться линейной градиентной кистью -->
+
+    <Path Canvas.Left="150" Canvas.Top="150" StrokeThickness="25">
+        <Path.Stroke>
+            <LinearGradientBrush>
+                <!-- LinearGradientBrush инкапсулирует градиенты с двумя цветами и пользовательские многоцветные градиенты.
+                Все линейные градиенты определяются вдоль линии, заданной либо шириной прямоугольника, либо двумя точками.-->
+                <LinearGradientBrush.GradientStops>
+                    <GradientStop Offset="0.00" Color="Red" />
+                    <GradientStop Offset="0.16" Color="Orange" />
+                    <GradientStop Offset="0.33" Color="Yellow" />
+                    <GradientStop Offset="0.50" Color="Green" />
+                    <GradientStop Offset="0.67" Color="Blue" />
+                    <GradientStop Offset="0.84" Color="Indigo" />
+                    <GradientStop Offset="1.00" Color="Violet" />
+                </LinearGradientBrush.GradientStops>
+                <!--GradientStops описывает местоположение и цвет точки перехода в градиенте. -->
+            </LinearGradientBrush>
+        </Path.Stroke>
+        <Path.Data>
+            <PathGeometry>
+                <!--PathGeometry позволяет создавать более сложные по характеру геометрии.PathGeometry содержит один или несколько компонентов PathFigure.
+                Объект PathFigure в свою очередь формируется из сегментов. Все сегменты наследуются от класса PathSegment(в нашем случае это PolyBezierSegment)-->
+                <PathGeometry.Figures>
+                    <PathFigure StartPoint="0 -100">
+                        <!--PathFigure StartPoint получает или задает объект класса Point, где начинается PathFigure.-->
+                        <PolyBezierSegment 
+                            Points=" -55 -100, -100  -55, -100    0,
+                                    -100   55,  -55  100,    0  100,
+                                      55  100,  100   50,  150    0,
+                                     200  -50,  245 -100,  300 -100,
+                                     355 -100,  400  -55,  400    0,
+                                     400   55,  355  100,  300  100,
+                                     245  100,  200   50,  150    0,
+                                     100  -50,   55 -100,    0 -100" />
+                    </PathFigure>
+                    <!--задаем 8 кривых Безье -->
+                    <!--Points получает или задает объект PointCollection, определяющий данный объект PolyBezierSegment-->
+                    <!--PolyBezierSegment представляет одну или более кривых Безье третьего порядка -->
+                </PathGeometry.Figures>
+            </PathGeometry>
+        </Path.Data>
+    </Path>
+</Canvas>

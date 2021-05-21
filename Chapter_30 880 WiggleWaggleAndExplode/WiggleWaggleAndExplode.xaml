@@ -1,0 +1,41 @@
+﻿<Canvas xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"         
+		xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Ellipse Width="48" Height="48" Fill="Red"              
+			Canvas.Left="0" Canvas.Top="0">
+        <!--рисуем кружок и красим его в красный-->
+        <Ellipse.Triggers>
+            <!--обьявляем тригер для нашего кружка-->
+            <EventTrigger RoutedEvent="Ellipse.MouseDown">
+                <!--тригером нашего кружка будет нажатие мышкой на него-->
+                <BeginStoryboard>
+                    <!--строим дерево что бы добраться до нашего DoubleAnimation  -->
+                    <Storyboard>
+                        <DoubleAnimation                             
+								Storyboard.TargetProperty="(Canvas.Left)"                             
+								From="0" To="288"  Duration="0:0:0.25"                             
+								AutoReverse="True"                             
+								RepeatBehavior="20x" />
+                        <!--наш шарик движется по горизонтали. при помощи этой анимации задаем свойтсва нашему DoubleAnimation(Storyboard.TargetProperty="(Canvas.Left)" - задаем начальную точку нашего движения))  -->
+                        <DoubleAnimation                             
+								Storyboard.TargetProperty="(Canvas.Top)"                             
+								From="0" To="480"  Duration="0:0:5"                             
+								AutoReverse="True" />
+                        <!--наш шарик движется по вертикали. при помощи этой анимации задаем свойтсва нашему DoubleAnimation(Storyboard.TargetProperty="(Canvas.Top)" - задаем начальную точку нашего движения))  -->
+                        <ParallelTimeline  BeginTime="0:0:10"                                            
+								FillBehavior="Stop">
+                            <!--создаем элемент ParallelTimeline и задаем ему свойтсва BeginTime="0:0:10"(общее время выполнения прошлой анимации) FillBehavior="Stop" - что делать после выполнения наших анимации-->
+                            <DoubleAnimation                                 
+									Storyboard.TargetProperty="Width"                                 
+									From="48" To="480"  Duration="0:0:1" />
+                            <!--увеличиваем ширину нашего шарика-->
+                            <DoubleAnimation                                 
+									Storyboard.TargetProperty="Height"                                 
+									From="48" To="480"  Duration="0:0:1" />
+                            <!--увеличиваем высоту нашего шарика-->
+                        </ParallelTimeline>
+                    </Storyboard>
+                </BeginStoryboard>
+            </EventTrigger>
+        </Ellipse.Triggers>
+    </Ellipse>
+</Canvas> 
