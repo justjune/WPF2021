@@ -211,6 +211,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_23 635 CustomElemen
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_23 632 WhatSize", "..\Chapter_23 632 WhatSize\Chapter_23 632 WhatSize.csproj", "{5722B45E-B95A-429F-B746-FB78867D2067}"
 EndProject
+<<<<<<< HEAD
+=======
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_30 873 EnlargeButtonInXaml", "..\Chapter_30 873 EnlargeButtonInXaml\Chapter_30 873 EnlargeButtonInXaml.csproj", "{8BE0F4C5-0D65-45D0-B943-8C01467158AC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_24 660 ButtonWithLocalStyle", "..\Chapter_24 660 ButtonWithLocalStyle\Chapter_24 660 ButtonWithLocalStyle.csproj", "{678AF2FE-0186-4CC2-B348-FC946C4B369E}"
@@ -223,6 +225,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_28_809 Dumbbell", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_28_807 CombinedGeometryModes", "..\Chapter_28_807 CombinedGeometryModes\Chapter_28_807 CombinedGeometryModes.csproj", "{630CF5A1-2E95-41C8-AFEE-15A3359E31C6}"
 EndProject
+>>>>>>> ee52b1535fc53e07fc9fd1aa60fd9045ec70648e
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_30 904 KeyFramePointAnimation", "..\Chapter_30 904 KeyFramePointAnimation\Chapter_30 904 KeyFramePointAnimation.csproj", "{6D71F184-CE12-4948-AF67-3B81B2C0DE43}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_30 904 MatrixAnimatedButton", "..\Chapter_30 904 MatrixAnimatedButton\Chapter_30 904 MatrixAnimatedButton.csproj", "{BC6C645E-D1D5-411E-99F6-9BC94CDDC7A5}"
@@ -231,6 +234,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_30 904 PacedAnimati
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_30 904 NewtonsCradle", "..\Chapter_30 904 NewtonsCradle\Chapter_30 904 NewtonsCradle.csproj", "{83887B53-AA8D-4E66-B731-BEB23907A264}"
 EndProject
+<<<<<<< HEAD
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_30 874 EnlargeButtonslnXaml", "..\Chapter_30 874 EnlargeButtonslnXaml\Chapter_30 874 EnlargeButtonslnXaml.csproj", "{D4196C40-0439-4EBF-B27F-CDB83F5709DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_30 899 ExpandingCircles", "..\Chapter_30 899 ExpandingCircles\Chapter_30 899 ExpandingCircles.csproj", "{5489AEF6-21B2-46F5-9D2A-40A1905768CA}"
+=======
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_28 824 Infinity", "..\Chapter_28 824 Infinity\Chapter_28 824 Infinity.csproj", "{C03F0F9A-0B30-4ACE-BBE4-86ADDA384BB4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_28 823 SimulatedCircle", "..\Chapter_28 823 SimulatedCircle\Chapter_28 823 SimulatedCircle.csproj", "{6A682C27-9BC9-40C4-A610-A93DD3305AA2}"
@@ -258,6 +266,7 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_30 869 EnlargeButtonWithAnimation", "..\Chapter_30 869 EnlargeButtonWithAnimation\Chapter_30 869 EnlargeButtonWithAnimation.csproj", "{3A44EB90-6781-4FA5-A3D3-7BF5FBA45C88}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_30 895 RenderTheAnimation", "..\Chapter_30 895 RenderTheAnimation\Chapter_30 895 RenderTheAnimation.csproj", "{3A9BA1B6-AE5B-4B3A-BEDA-52010EF5B2B1}"
+>>>>>>> ee52b1535fc53e07fc9fd1aa60fd9045ec70648e
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -685,6 +694,8 @@ Global
 		{5722B45E-B95A-429F-B746-FB78867D2067}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5722B45E-B95A-429F-B746-FB78867D2067}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5722B45E-B95A-429F-B746-FB78867D2067}.Release|Any CPU.Build.0 = Release|Any CPU
+<<<<<<< HEAD
+=======
 		{8BE0F4C5-0D65-45D0-B943-8C01467158AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8BE0F4C5-0D65-45D0-B943-8C01467158AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8BE0F4C5-0D65-45D0-B943-8C01467158AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -709,6 +720,7 @@ Global
 		{630CF5A1-2E95-41C8-AFEE-15A3359E31C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{630CF5A1-2E95-41C8-AFEE-15A3359E31C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{630CF5A1-2E95-41C8-AFEE-15A3359E31C6}.Release|Any CPU.Build.0 = Release|Any CPU
+>>>>>>> ee52b1535fc53e07fc9fd1aa60fd9045ec70648e
 		{6D71F184-CE12-4948-AF67-3B81B2C0DE43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6D71F184-CE12-4948-AF67-3B81B2C0DE43}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D71F184-CE12-4948-AF67-3B81B2C0DE43}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -725,6 +737,16 @@ Global
 		{83887B53-AA8D-4E66-B731-BEB23907A264}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83887B53-AA8D-4E66-B731-BEB23907A264}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{83887B53-AA8D-4E66-B731-BEB23907A264}.Release|Any CPU.Build.0 = Release|Any CPU
+<<<<<<< HEAD
+		{D4196C40-0439-4EBF-B27F-CDB83F5709DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4196C40-0439-4EBF-B27F-CDB83F5709DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4196C40-0439-4EBF-B27F-CDB83F5709DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4196C40-0439-4EBF-B27F-CDB83F5709DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5489AEF6-21B2-46F5-9D2A-40A1905768CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5489AEF6-21B2-46F5-9D2A-40A1905768CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5489AEF6-21B2-46F5-9D2A-40A1905768CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5489AEF6-21B2-46F5-9D2A-40A1905768CA}.Release|Any CPU.Build.0 = Release|Any CPU
+=======
 		{C03F0F9A-0B30-4ACE-BBE4-86ADDA384BB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C03F0F9A-0B30-4ACE-BBE4-86ADDA384BB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C03F0F9A-0B30-4ACE-BBE4-86ADDA384BB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -781,6 +803,7 @@ Global
 		{3A9BA1B6-AE5B-4B3A-BEDA-52010EF5B2B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A9BA1B6-AE5B-4B3A-BEDA-52010EF5B2B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A9BA1B6-AE5B-4B3A-BEDA-52010EF5B2B1}.Release|Any CPU.Build.0 = Release|Any CPU
+>>>>>>> ee52b1535fc53e07fc9fd1aa60fd9045ec70648e
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
