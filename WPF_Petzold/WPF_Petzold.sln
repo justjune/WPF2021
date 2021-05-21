@@ -178,6 +178,23 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_24_673_DrawGrid", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_24_674_DocumentStyles", "..\Chapter_24_674_DocumentStyles\Chapter_24_674_DocumentStyles.csproj", "{E4F2DB44-8CAA-426D-A79B-664A6A4489D5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_28_815_ArcPossibilities2", "..\Chapter_28_815_ArcPossibilities2\Chapter_28_815_ArcPossibilities2.csproj", "{169F800C-9464-45E4-B124-7D3DA783CF53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_28 812 PolyLineSegmentDemo", "..\Chapter_28 812 PolyLineSegmentDemo\Chapter_28 812 PolyLineSegmentDemo.csproj", "{D9FC8E9F-76ED-4642-AC87-077AF72D04D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_28 816 FigureWithArcs", "..\Chapter_28 816 FigureWithArcs\Chapter_28 816 FigureWithArcs.csproj", "{98821A06-6848-4A4B-B3A6-EF239BBDB874}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_30 901 InfinityAnimation1", "..\Chapter_30 901 InfinityAnimation1\Chapter_30 901 InfinityAnimation1.csproj", "{6DF161F2-428F-4C9F-AE7E-780F795F68FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_30 903 InfinityAnimation2", "..\Chapter_30 903 InfinityAnimation1\Chapter_30 903 InfinityAnimation2.csproj", "{18A86AA3-6F85-4E8B-8EB0-56F5E83C3868}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_30 884 FishEyeButtons2", "..\Chapter_30 884 FishEyeButtons2\Chapter_30 884 FishEyeButtons2.csproj", "{A3339027-9A1D-4546-AA45-E39A30D421F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_28 811 MultipleLineSegments", "..\Chapter_28 811 MultipleLineSegments\Chapter_28 811 MultipleLineSegments.csproj", "{614DC158-CF4E-4844-B733-4360F8BBFAA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_28 815 ArcPossibilities2", "..\Chapter_28 815 ArcPossibilities2\Chapter_28 815 ArcPossibilities2.csproj", "{B3D9AFC7-0650-47BE-BF0D-21C09E84E642}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_30 882 FishEyeButtons1", "..\Chapter_30 882 FishEyeButtons1\Chapter_30 882 FishEyeButtons1.csproj", "{B45378C5-3F03-4367-A623-171921E1D5EC}"
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_23 641 ColorScrollApp", "..\Chapter_23 641 ColorScrollApp\Chapter_23 641 ColorScrollApp.csproj", "{632DED9D-56F4-4115-A384-627FA9404833}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_20 537 DumpContentPropertyAttributes", "..\Chapter_20 537 DumpContentPropertyAttributes\Chapter_20 537 DumpContentPropertyAttributes.csproj", "{DFD7492B-AAE8-4253-858D-5FFDA7FF0EFF}"
@@ -600,6 +617,42 @@ Global
 		{E4F2DB44-8CAA-426D-A79B-664A6A4489D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E4F2DB44-8CAA-426D-A79B-664A6A4489D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E4F2DB44-8CAA-426D-A79B-664A6A4489D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{169F800C-9464-45E4-B124-7D3DA783CF53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{169F800C-9464-45E4-B124-7D3DA783CF53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{169F800C-9464-45E4-B124-7D3DA783CF53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{169F800C-9464-45E4-B124-7D3DA783CF53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9FC8E9F-76ED-4642-AC87-077AF72D04D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9FC8E9F-76ED-4642-AC87-077AF72D04D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9FC8E9F-76ED-4642-AC87-077AF72D04D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9FC8E9F-76ED-4642-AC87-077AF72D04D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98821A06-6848-4A4B-B3A6-EF239BBDB874}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98821A06-6848-4A4B-B3A6-EF239BBDB874}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98821A06-6848-4A4B-B3A6-EF239BBDB874}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98821A06-6848-4A4B-B3A6-EF239BBDB874}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DF161F2-428F-4C9F-AE7E-780F795F68FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DF161F2-428F-4C9F-AE7E-780F795F68FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DF161F2-428F-4C9F-AE7E-780F795F68FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DF161F2-428F-4C9F-AE7E-780F795F68FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18A86AA3-6F85-4E8B-8EB0-56F5E83C3868}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18A86AA3-6F85-4E8B-8EB0-56F5E83C3868}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18A86AA3-6F85-4E8B-8EB0-56F5E83C3868}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18A86AA3-6F85-4E8B-8EB0-56F5E83C3868}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3339027-9A1D-4546-AA45-E39A30D421F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3339027-9A1D-4546-AA45-E39A30D421F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3339027-9A1D-4546-AA45-E39A30D421F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3339027-9A1D-4546-AA45-E39A30D421F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{614DC158-CF4E-4844-B733-4360F8BBFAA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{614DC158-CF4E-4844-B733-4360F8BBFAA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{614DC158-CF4E-4844-B733-4360F8BBFAA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{614DC158-CF4E-4844-B733-4360F8BBFAA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3D9AFC7-0650-47BE-BF0D-21C09E84E642}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3D9AFC7-0650-47BE-BF0D-21C09E84E642}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3D9AFC7-0650-47BE-BF0D-21C09E84E642}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3D9AFC7-0650-47BE-BF0D-21C09E84E642}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B45378C5-3F03-4367-A623-171921E1D5EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B45378C5-3F03-4367-A623-171921E1D5EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B45378C5-3F03-4367-A623-171921E1D5EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B45378C5-3F03-4367-A623-171921E1D5EC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{632DED9D-56F4-4115-A384-627FA9404833}.Debug|Any CPU.ActiveCfg = Release|Any CPU
 		{632DED9D-56F4-4115-A384-627FA9404833}.Debug|Any CPU.Build.0 = Release|Any CPU
 		{632DED9D-56F4-4115-A384-627FA9404833}.Release|Any CPU.ActiveCfg = Release|Any CPU

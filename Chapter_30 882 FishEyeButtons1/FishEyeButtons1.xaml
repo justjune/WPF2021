@@ -1,0 +1,47 @@
+﻿<Window x:Class="comment.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:comment"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel>
+        <!--Выравнивает дочерние элементы в одну линию, ориентированную горизонтально или вертикально-->
+        <StackPanel.Resources>
+            <Style TargetType="{x:Type Button}">
+                <!--Обеспечивает возможность совместного использования свойств, ресурсов и обработчиков событий экземплярами типа.-->
+                <Setter Property="HorizontalAlignment"  Value="Center" />
+                <Setter Property="FontSize" Value="12" />
+                <Style.Triggers>
+                    <!--Возвращает коллекцию объектов TriggerBase, применяющих значения свойств на основе заданных условий-->
+                    <EventTrigger RoutedEvent= "Button.MouseEnter">
+                        <BeginStoryboard>
+                            <Storyboard>
+                                <!--Временная шкала контейнера, которая предоставляет объект и свойство, содержащие сведения о дочерних анимациях-->
+                                <DoubleAnimation Storyboard.TargetProperty="FontSize" To="36"  Duration="0:0:1" />
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </EventTrigger>
+                    <EventTrigger RoutedEvent= "Button.MouseLeave">
+                        <BeginStoryboard>
+                            <Storyboard>
+                                <DoubleAnimation Storyboard.TargetProperty="FontSize" To="12"  Duration="0:0:0.25" />
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </EventTrigger>
+                </Style.Triggers>
+            </Style>
+        </StackPanel.Resources>
+        <Button>Button No. 1</Button>
+        <!--Представляет элемент управления "Кнопка Windows", который будет реагировать на событие Click-->
+        <Button>Button No. 2</Button>
+        <Button>Button No. 3</Button>
+        <Button>Button No. 4</Button>
+        <Button>Button No. 5</Button>
+        <Button>Button No. 6</Button>
+        <Button>Button No. 7</Button>
+        <Button>Button No. 8</Button>
+        <Button>Button No. 9</Button>
+    </StackPanel>
+</Window>
