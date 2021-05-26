@@ -195,6 +195,7 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_28 815 ArcPossibilities2", "..\Chapter_28 815 ArcPossibilities2\Chapter_28 815 ArcPossibilities2.csproj", "{B3D9AFC7-0650-47BE-BF0D-21C09E84E642}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_30 882 FishEyeButtons1", "..\Chapter_30 882 FishEyeButtons1\Chapter_30 882 FishEyeButtons1.csproj", "{B45378C5-3F03-4367-A623-171921E1D5EC}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_23 641 ColorScrollApp", "..\Chapter_23 641 ColorScrollApp\Chapter_23 641 ColorScrollApp.csproj", "{632DED9D-56F4-4115-A384-627FA9404833}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_20 537 DumpContentPropertyAttributes", "..\Chapter_20 537 DumpContentPropertyAttributes\Chapter_20 537 DumpContentPropertyAttributes.csproj", "{DFD7492B-AAE8-4253-858D-5FFDA7FF0EFF}"
@@ -234,6 +235,7 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_30 874 EnlargeButtonslnXaml", "..\Chapter_30 874 EnlargeButtonslnXaml\Chapter_30 874 EnlargeButtonslnXaml.csproj", "{D4196C40-0439-4EBF-B27F-CDB83F5709DA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_30 899 ExpandingCircles", "..\Chapter_30 899 ExpandingCircles\Chapter_30 899 ExpandingCircles.csproj", "{5489AEF6-21B2-46F5-9D2A-40A1905768CA}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_28 824 Infinity", "..\Chapter_28 824 Infinity\Chapter_28 824 Infinity.csproj", "{C03F0F9A-0B30-4ACE-BBE4-86ADDA384BB4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_28 823 SimulatedCircle", "..\Chapter_28 823 SimulatedCircle\Chapter_28 823 SimulatedCircle.csproj", "{6A682C27-9BC9-40C4-A610-A93DD3305AA2}"
@@ -261,6 +263,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_30 869 EnlargeButtonWithAnimation", "..\Chapter_30 869 EnlargeButtonWithAnimation\Chapter_30 869 EnlargeButtonWithAnimation.csproj", "{3A44EB90-6781-4FA5-A3D3-7BF5FBA45C88}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_30 895 RenderTheAnimation", "..\Chapter_30 895 RenderTheAnimation\Chapter_30 895 RenderTheAnimation.csproj", "{3A9BA1B6-AE5B-4B3A-BEDA-52010EF5B2B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_31 913 ConvertedBitmapChain", "..\Chapter_31 913 ConvertedBitmapChain\Chapter_31 913 ConvertedBitmapChain.csproj", "{8590B3A8-06B3-4716-8D41-B9B27393195D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -735,7 +739,7 @@ Global
 		{5489AEF6-21B2-46F5-9D2A-40A1905768CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5489AEF6-21B2-46F5-9D2A-40A1905768CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5489AEF6-21B2-46F5-9D2A-40A1905768CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5489AEF6-21B2-46F5-9D2A-40A1905768CA}.Release|Any CPU.Build.0 = Release|Any CP
+		{5489AEF6-21B2-46F5-9D2A-40A1905768CA}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C03F0F9A-0B30-4ACE-BBE4-86ADDA384BB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C03F0F9A-0B30-4ACE-BBE4-86ADDA384BB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C03F0F9A-0B30-4ACE-BBE4-86ADDA384BB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -792,6 +796,10 @@ Global
 		{3A9BA1B6-AE5B-4B3A-BEDA-52010EF5B2B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A9BA1B6-AE5B-4B3A-BEDA-52010EF5B2B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A9BA1B6-AE5B-4B3A-BEDA-52010EF5B2B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8590B3A8-06B3-4716-8D41-B9B27393195D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8590B3A8-06B3-4716-8D41-B9B27393195D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8590B3A8-06B3-4716-8D41-B9B27393195D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8590B3A8-06B3-4716-8D41-B9B27393195D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
