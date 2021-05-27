@@ -1,0 +1,51 @@
+﻿<!-- ======================================================
+      DynamicResourceDemo.xaml (c) 2006 by Charles Petzold 
+     ====================================================== -->
+<!--в этом файле 2 кисти определяются в виде ресурсов -->
+<StackPanel xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+            xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+            Background="{DynamicResource 
+                    {x:Static SystemColors.InactiveCaptionBrushKey}}">
+    <!--InactiveCaptionBrushKey получает ResourceKey для кисти SolidColorBrush, которая рисует фон заголовка неактивного окна -->
+    <!--ResourceKey предоставляет абстрактный базовый класс для разных ресурсных ключей. -->
+    <!--SolidColorBrush закрашивает область сплошным цветом -->
+
+    <StackPanel.Resources>
+        <LinearGradientBrush x:Key="dynabrush1" 
+                             StartPoint="0 0" EndPoint="1 1">
+            <LinearGradientBrush.GradientStops>
+                <!--Создаем 1 кисть, которая будет рисовать фон -->
+
+                <GradientStop Offset="0" 
+                    Color="{DynamicResource 
+                        {x:Static SystemColors.ActiveCaptionColorKey}}" />
+                <!-- ActiveCaptionColorKey получает ResourceKey для Color фона строки заголовка активного окна -->
+                <!--Color описывает цвет в терминах каналов альфа(бозначает комбинирование изображения с фоном с целью создания эффекта частичной прозрачности), красного, зеленого и синего -->
+
+
+                <GradientStop Offset="0.5" 
+                    Color="{DynamicResource 
+                        {x:Static SystemColors.InactiveCaptionColorKey}}" />
+                <!--LinearGradientBrush оздает плавный переход от одного цвета к другому. 
+                Для указания цвета и точек, от которых начинается переход, используется объект GradientStop. 
+                Его свойство Color указывает на цвет, а свойство Offset- на точку, с которой начинается переход -->
+
+            </LinearGradientBrush.GradientStops>
+        </LinearGradientBrush>
+
+        <SolidColorBrush x:Key="dynabrush2"
+                Color="{DynamicResource 
+                    {x:Static SystemColors.ActiveCaptionColorKey}}" />
+        <!--Создаем 2 кисть, которая будет рисовать текст -->
+        <!--SolidColorBrush задает цвет для сплошной заливки -->
+
+    </StackPanel.Resources>
+
+    <Label HorizontalAlignment="Center"
+           FontSize="96"
+           Content="Dynamic Resources"
+           Background="{StaticResource dynabrush1}"
+           Foreground="{StaticResource dynabrush2}" />
+    <!--Задали орикнтацию, масштаб, указали какая кисть что рисует -->
+
+</StackPanel>

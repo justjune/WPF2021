@@ -1,0 +1,43 @@
+﻿<!-- ============================================================
+      AnotherResourceLookupDemo.xaml (c) 2006 by Charles Petzold 
+     ============================================================ -->
+<StackPanel xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+            xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+            Orientation="Horizontal">
+    <!--задали горизонтальную ориентацию для кнопок -->
+
+    <StackPanel>
+        <StackPanel.Resources>
+            <SolidColorBrush 
+                x:Key="{x:Static SystemColors.ActiveCaptionBrushKey}" 
+                Color="Red" />
+        </StackPanel.Resources>
+        <!--Только первый вложенный элемент StackPanel содержит секцию Resources, в которой определется красная кисть с ключом, полученным из SystemColors,ActiveCaptionBrushKey -->
+        <!--ActiveCaptionBrushKey получает ResourceKey для SolidColorBrush, используемый для закрашивания фона строки заголовка активного окна. -->
+        <!--SolidColorBrush задает цвет для сплошной заливки -->
+        <!--SystemColors содержит системные цвета, системные кисти и ключи системных ресурсов, соответствующие элементам отображения системы -->
+
+        <Button HorizontalAlignment="Center" 
+                VerticalAlignment="Center" 
+                Margin="24"
+                Foreground="{DynamicResource 
+                        {x:Static SystemColors.ActiveCaptionBrushKey}}">
+            Button with Red text
+        </Button>
+    </StackPanel>
+    <!--Создали кнопку красного цвета, задали ее ориентацию, размер и текст на ней -->
+    <!-- ActiveCaptionColorKey получает ResourceKey для Color фона строки заголовка активного окна -->
+
+    <StackPanel>
+
+        <Button HorizontalAlignment="Center" 
+                VerticalAlignment="Center" 
+                Margin="24"
+                Foreground="{DynamicResource 
+                        {x:Static SystemColors.ActiveCaptionBrushKey}}">
+            Button with Blue text
+        </Button>
+    </StackPanel>
+    <!--создали 2 кнопку дефолтного(голубого) цвета, т.к. для нее не задавали секцию Resources  -->
+
+</StackPanel>
