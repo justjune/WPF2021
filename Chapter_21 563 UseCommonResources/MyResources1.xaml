@@ -1,0 +1,15 @@
+﻿<ResourceDictionary         
+		xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"         
+		xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <!--создаем ресурс для использования в другом XAML файле(с корневым элементом ResourceDictionary) -->
+    <LinearGradientBrush x:Key="brushLinear">
+        <!--ключ для нашего ресурса -->
+        <LinearGradientBrush.GradientStops>
+            <!--диагональный градиент от левого верхнего до нижнего правого угла-->
+            <GradientStop Color="Pink" Offset="0" />
+            <GradientStop Color="Aqua" Offset="1" />
+        </LinearGradientBrush.GradientStops>
+        <!-- от розового до цвета морской волны-->
+    </LinearGradientBrush>
+    <!--здесь содержится всего один ресурс но их может быть множество-->
+</ResourceDictionary>
