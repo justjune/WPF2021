@@ -264,6 +264,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_30 869 EnlargeButto
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_30 895 RenderTheAnimation", "..\Chapter_30 895 RenderTheAnimation\Chapter_30 895 RenderTheAnimation.csproj", "{3A9BA1B6-AE5B-4B3A-BEDA-52010EF5B2B1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_21 563 UseCommonResources", "..\Chapter_21 563 UseCommonResources\Chapter_21 563 UseCommonResources.csproj", "{742C6B40-983E-4DDF-8631-2B9FFB4CB78D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_31 911 CreateIndexedBitmap", "..\Chapter_31 911 CreateIndexedBitmap\Chapter_31 911 CreateIndexedBitmap.csproj", "{11A9AD06-7210-48DE-854E-3F94D3CA9A68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_31 912 CreateFullColorBitmap", "..\Chapter_31 912 CreateFullColorBitmap\Chapter_31 912 CreateFullColorBitmap.csproj", "{8EDDD706-F9E8-400D-B6CC-5B3DFC8D34A2}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_31 913 ConvertedBitmapChain", "..\Chapter_31 913 ConvertedBitmapChain\Chapter_31 913 ConvertedBitmapChain.csproj", "{8590B3A8-06B3-4716-8D41-B9B27393195D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_31 931 AnimatedDrawingBrush", "..\Chapter_31 931 AnimatedDrawingBrush\Chapter_31 931 AnimatedDrawingBrush.csproj", "{E5F8A37E-CA9F-41E2-AF4D-CA4C66ECAEE4}"
@@ -804,6 +810,18 @@ Global
 		{3A9BA1B6-AE5B-4B3A-BEDA-52010EF5B2B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A9BA1B6-AE5B-4B3A-BEDA-52010EF5B2B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A9BA1B6-AE5B-4B3A-BEDA-52010EF5B2B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{742C6B40-983E-4DDF-8631-2B9FFB4CB78D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{742C6B40-983E-4DDF-8631-2B9FFB4CB78D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{742C6B40-983E-4DDF-8631-2B9FFB4CB78D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{742C6B40-983E-4DDF-8631-2B9FFB4CB78D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11A9AD06-7210-48DE-854E-3F94D3CA9A68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11A9AD06-7210-48DE-854E-3F94D3CA9A68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11A9AD06-7210-48DE-854E-3F94D3CA9A68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11A9AD06-7210-48DE-854E-3F94D3CA9A68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EDDD706-F9E8-400D-B6CC-5B3DFC8D34A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EDDD706-F9E8-400D-B6CC-5B3DFC8D34A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EDDD706-F9E8-400D-B6CC-5B3DFC8D34A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EDDD706-F9E8-400D-B6CC-5B3DFC8D34A2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8590B3A8-06B3-4716-8D41-B9B27393195D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8590B3A8-06B3-4716-8D41-B9B27393195D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8590B3A8-06B3-4716-8D41-B9B27393195D}.Release|Any CPU.ActiveCfg = Release|Any CPU
