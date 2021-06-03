@@ -280,6 +280,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_21 546  FontSizeRes
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_21 547  ResourceLookupDemo", "..\Chapter_21 547  ResourceLookupDemo\Chapter_21 547  ResourceLookupDemo.csproj", "{2039F761-C066-4293-A7B3-50D286D40312}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_30 893 SquaringTheCircle", "..\Chapter_30 893 SquaringTheCircle\Chapter_30 893 SquaringTheCircle.csproj", "{09320BFE-0B07-4096-9448-B136F5544355}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -842,6 +844,10 @@ Global
 		{2039F761-C066-4293-A7B3-50D286D40312}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2039F761-C066-4293-A7B3-50D286D40312}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2039F761-C066-4293-A7B3-50D286D40312}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09320BFE-0B07-4096-9448-B136F5544355}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09320BFE-0B07-4096-9448-B136F5544355}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09320BFE-0B07-4096-9448-B136F5544355}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09320BFE-0B07-4096-9448-B136F5544355}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
